@@ -1,46 +1,39 @@
-18.12.2023 | WikiLoader | TA544 | 
+16.01.2024 | WikiLoader | TA544 |
 
 *************************************************
 
-.pdf 32f13566e971a0e674407446b5735dbddb05e19dc96fdb57909a4c19f783f346
-.url https://respostrong.com/ONEView
-.zip 7bae29a13839b2ad19368bff6c1af0099c6073302218e59019065852b5ba6736 (js)
-.js 46cce8711f3857896a9a1c01d26da35ff7172cd399f9b821cd7da80d52d33fcf
-.zip c6bc86a956c779ebf8333dad76ccfdb0cd9b4a18b24051a426fc0cec78e18814
+.url https://livespoints.com/sso.dsv.com
+.pdf 0bfb4ef49e8043ea7575aa5a96eba440abaee2316b7120c340ff7236765f4af9
+.zip 13d942453327d05f0fa9e5eb3e2cafdf0579e78507f65deac7600043598cc1e3
+.js 5257f30327d03ac482d02fb3bf48a98aeaba0bea2f0fdcad6682e45fe4651fe0
+.zip bef04e3b2b81f2dee39c42ab9be781f3db0059ec722aeee3b5434c2e63512a68
+.dll 67283e154b86612e325030e5a5f7995a6fe552d20655283ea5de8b53ff405f69
 
 *************************************************
 
 zip > .js > .exe
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\BOL_Inv 20231218508466_6269422738.js
-
-wscript.exe C:\Users\Admin\AppData\Local\Temp\document.js
-
 Explorer.EXE
 
-notepad.exe
+C:\Users\Admin\AppData\Local\Temp\npp.8.6.portable.x64\notepad.exe
 
-svchost.exe -k netsvcs -s wlidsvc
+explorer.exe
 
-svchost.exe -k netsvcs -s wlidsvc
+C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe" -ServerName:CortanaUI.AppXa50dqqa5gqv4a428c9y1jjw7m3btvepj.mca
 
 *************************************************
 
 distro urls:
 
-https://respostrong.com/ONEView
-https://respostrong.com/Logistics
-https://respostrong.com/appropriate-document
-https://cdn.discordapp.com/attachments/1063894486901587979/1186331439340462090/v5b2.zip?ex=6592dc40&is=65806740&hm=673bdc5de5ba021e862fd39ba5247e92d416989fe779f8f7efce4143c85b34b0&
+https://livespoints.com/sso.dsv.com
+https://livespoints.com/myDSV
+https://cdn.discordapp.com/attachments/1063900897270304770/1196763302303379496/npp.8.6.portable.x64.zip?ex=65b8cfae&is=65a65aae&hm=d30cc80d979d64493314348ac5a012ef68a7e030d08ec0360a636b7744b8f9b6&
 
 *************************************************
 
 c2's
 
-https://gya.com.bo/diubg12uin.php?id=1
-https://onucleo.com.br/uhyvbdkjqwd.php?id=1
-https://la-box-de-ginette.fr/iuhd9081j2dk21.php?id=1
-https://verdemanzana.com.bo/idub12ud21.php?id=1
-https://www.crash-it.it/duyg12d.php?id=1
-
-*************************************************
+https://kashmirworldwide.com/ilw4kl.php?id=1
+https://multitraders.net/yv7clr.php?id=1
+https://thekostenfamilys.com/m1b7o3.php?id=1
+https://thichgiban.com/8sjdtu.php?id=1
