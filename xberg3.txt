@@ -1,80 +1,62 @@
+
 THREAT IDENTIFICATION:  DARKGATE
- 
-OBSERVED SENDERS
-Donald Parsons <samer@asiatribune.co>
-Gertrude Charles <info@dbnetdesign.com>
 
 OBSERVED SUBJECTS
-claim:8341TVAW2961
-claim:4784PKCM5135
+Courier Service Fees - 1-28-24
+Delivery Service Fees - 1-28-24
+
+OBSERVED SENDERS
+auto-reply@howtocreatgpts.com
+office@howtocreatgpts.com
+system@foreignexchangeearnings.com
+
+Reply to email address for all 3:
+support@fscs5.com
 
 PDF FILE HASHES
-res_-26-1009-9774135792.pdf
-63d9be606d3f6dbb6730decba88daecc
+285c0f5eb3cd9aecfdd1b9311be97463
+7a49414efe888dc49318b87161e85879
+8efd6f30dd19229737cde3c982a16424
+(All files that I saw were all named: "attachment_-[0-9]{10}\.pdf)
 
-claim-26-1768-0694838439.pdf
-ffa5f25e8f43da956fe2c767450755df
+KEITARO TDS URL
+https://adclick.g.doubleclick.net//pcs/click?f1844aao2-24-ZcBdUOnedriveSvkd&&adurl=////asareholdings.com/?utm_content=bFvTrjuDJE&session_id=CTlYnmz1mj3HeYReRfPe&id=rgCyX&filter=IOzpvpQwNI-AgmJl&lang=zh&locale=FR
 
-KEITARO TDS URL FROM PDF
-https://adclick.g.doubleclick.net//pcs/click?f1466ndc1-24-YrMhOONENckd&&adurl=https://www.paradiseoutlaw.com/?utm_content=KSvsFzqzgm&session_id=RNPjy0Cp5WFZKMgwXUYL&id=3vP2z&filter=BuWLYhqjNa-AztOl&lang=fr&locale=US
+https://adclick.g.doubleclick.net//pcs/click?f8343wzv2-2024-BsYxUONEVikd&&adurl=////asareholdings.com/?utm_content=FRnaHTMerS&session_id=G0PX6cEAQ6NNFXAkCwmV&id=77OFg&filter=YQTRpLPqMS-JPyiU&lang=fr&locale=GB
 
-NEXT STAGE REDIRECT URL
-https://www.paradiseoutlaw.com/?utm_content=KSvsFzqzgm
+https://adclick.g.doubleclick.net//pcs/click?f8948zmr3-24-TbMnIONEYakd&&adurl=////asareholdings.com/?utm_content=pVgKxlMkTP&session_id=aM2VfW58SumkgB2BHz0d&id=UbRAA&filter=fXOOXibKgy-gZzwG&lang=fr&locale=JP
+
+NEXT REDIRECT URL
+https://asareholdings.com/?utm_content=bFvTrjuDJE
+https://asareholdings.com/?utm_content=FRnaHTMerS
+https://asareholdings.com/?utm_content=pVgKxlMkTP
 
 CAB FILE DOWNLOAD URL
-https://aakritifitness.com/wp-content/uploads/mailpoet/January-26-2024-FREPDCA.cab
+https://www.fiumine.com/wp-content/uploads/sucuri/attachment_7467819.cab
 
 CAB FILE HASH
-January-26-2024-FREPDCA.cab
-ecd1fbabc40ccb73838698115b5ac5fa
+attachment_7467819.cab
+72a7e431caa865d2817274c539cc6555
 
-CAB FILE CONTENTS
-January-26-2024-FREPDCA.url
-9658eb436ba93bdf9c14a2a9a100ce6e
+URL FILE HASH
+attachment_7467819.url
+1a05456bbdd73ad9e31ca5a8d1ae5cae
 
-And a file named "DOCUSIGN (security-extract).txt" which is 0 bytes
-
-FIRST URL FILE  PROPERTIES
-file://5.181.159.77@80/Downloads/Betterr.url
-
-NEXT STAGE DOWNLOAD URLS
-http://5.181.159.77/Downloads/Betterr.url
-
-SECOND URL FILE HASH
-Betterr.url
-bbabc06dd73deded03aa5473fe30f229
-
-SECOND URL PROPERTIES
-file://5.181.159.77@80/Downloads/doingprettywellthisjob.zip/doingprettywellthisjob.msi
+URL FILE PROPERTIES
+file://5.181.159.23@80/Downloads/reincarnation.zip/reincarnation.msi
 
 MSI FILE DOWNLOAD URL
-http://5.181.159.77/Downloads/doingprettywellthisjob.zip
-http://5.181.159.77/Downloads/doingprettywellthisjob.zip/doingprettywellthisjob.msi
+http://5.181.159.23/Downloads/reincarnation.zip/reincarnation.msi
 
 MSI FILE HASH
-doingprettywellthisjob.msi
-2256ae832551af3db0925b280364f25b
-
-AUTOIT EXECUTABLE FILE HASH (Legitimate file)
-Autoit3.exe
-c56b5f0201a3b3de53e561fe76912bfd
+reincarnation.msi
+4b2e289610400400a87a347ac2010c59
 
 AUTOIT SCRIPT FILE HASH
 script.au3
-eba524e5953e67b13e6815b14a1f0a57
-
-TEXT FILE HASH
-test.txt
-5165ddbdb0a572e6a815cbdeeb8d0df5
-(This contains what seems to be a decryption key of some sort)
-
-KEY FROM TEXT FILE
-sU2}"dqm7g5STD9=wXhQpN]He$aK0YELuI*M&6Cyr1Pk[{c3tRJ.i,ljb8OWvV4zFZnfB)Ao G(x
+51cac8ad7fca3b404d7bb89beef8890b
 
 DARKGATE C2s
-http://lili19mainmasters.com:8094
+stachmentsuprimeresult.com
 
-REFERENCES
-https://medium.com/s2wblog/detailed-analysis-of-darkgate-investigating-new-top-trend-backdoor-malware-0545ecf5f606
-https://www.splunk.com/en_us/blog/security/enter-the-gates-an-analysis-of-the-darkgate-autoit-loader.html
 
