@@ -1,43 +1,48 @@
-16.01.2024 | WikiLoader | TA544 |
+07.02.2024 | WikiLoader | TA544 |
 
 *************************************************
 
-.url https://livespoints.com/sso.dsv.com
-.pdf 0bfb4ef49e8043ea7575aa5a96eba440abaee2316b7120c340ff7236765f4af9
-.zip 13d942453327d05f0fa9e5eb3e2cafdf0579e78507f65deac7600043598cc1e3
-.js 5257f30327d03ac482d02fb3bf48a98aeaba0bea2f0fdcad6682e45fe4651fe0
-.zip bef04e3b2b81f2dee39c42ab9be781f3db0059ec722aeee3b5434c2e63512a68
-.dll 67283e154b86612e325030e5a5f7995a6fe552d20655283ea5de8b53ff405f69
+.url https://kontaktlines.com/us.kuehne-nagel.com
+.pdf d859f4ca59bee60d3c8bea67e4035b973a17014b57aee57ad1a372934d9739b3
+.zip 2db2488bcd865960f197451d7636d2e62166fee9317a855f0b5969459d5a015b
+.js ea88810283d251a5e45148d11b73337792989342b20f923f01078d5385a66655
+.zip a3a267aa6f5b0ade2e4829ba18a1baa5bf9a622b49767c1f849090d9263ff68d
+.dll 0de42118dd0cd861bea13de097457ccb407aae901b14e0bec59b0abe660cdf1f
 
 *************************************************
 
 zip > .js > .exe
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\DSV 122023624150_7018701115.js
+wscript.exe C:\Users\Admin\AppData\Local\Temp\US0000657106_327213_1476258823.js
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\out.js
+wscript.exe C:\Users\Admin\AppData\Local\Temp\kuehne.js
 
 Explorer.EXE
 
+C:\Windows\Explorer.EXE
+
 C:\Users\Admin\AppData\Local\Temp\npp.8.6.portable.x64\notepad.exe
+
+C:\Users\Admin\AppData\Local\Temp\\npp.8.6.portable.x64\plugins\mimeTools.dll
 
 explorer.exe
 
-C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe" -ServerName:CortanaUI.AppXa50dqqa5gqv4a428c9y1jjw7m3btvepj.mca
+StartMenuExperienceHost.exe -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca
 
 *************************************************
 
 distro urls:
 
-https://livespoints.com/sso.dsv.com
-https://livespoints.com/myDSV
-https://cdn.discordapp.com/attachments/1063900897270304770/1196763302303379496/npp.8.6.portable.x64.zip?ex=65b8cfae&is=65a65aae&hm=d30cc80d979d64493314348ac5a012ef68a7e030d08ec0360a636b7744b8f9b6&
+https://kontaktlines.com/us.kuehne-nagel.com
+https://kontaktlines.com/mykn.kuehne
+https://cdn.discordapp.com/attachments/1063897668436381750/1204721405757751316/1_npp.8.6.portable.x64.zip?ex=65d5c33d&is=65c34e3d&hm=bf77aa43802547e43eb71cb5daf3791453df8b98113b27d72ffec5e19c029858&
 
 *************************************************
 
 c2's
 
-https://kashmirworldwide.com/ilw4kl.php?id=1
-https://multitraders.net/yv7clr.php?id=1
-https://thekostenfamilys.com/m1b7o3.php?id=1
-https://thichgiban.com/8sjdtu.php?id=1
+https://1oneventos.com/wp-content/themes/twentytwentyone/vu0bkq.php?id=1
+https://emprendi2.com/assets/css/oxewdf.php?id=1
+https://helpforhypnotherapists.com/wp-content/themes/twentytwenty/zaevgn.php?id=1
+https://jubileemovement.org/wp-content/themes/twentytwentyone/3jubhh.php?id=1
+https://www.dicatindustrial.com/wp-content/themes/twentyseventeen/et3tah.php?id=1
