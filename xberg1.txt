@@ -1,21 +1,21 @@
-07.03.2024 | WikiLoader | TA544 |
+30.04.2024 | WikiLoader | TA544 |
 
 *************************************************
 
-.url https://infplaute.com/international-commercial
-.pdf 53634ec647aa4ea8b88611319006db71eff2a4d962fdb4e996843c5a28843ae3
-.zip ccc7c9abce028446a1cf25757fd1dbcf5b21f3aeab2bd5e5ccf1548ec8b71ebb
-.js 43e589748c0cb468cdf6d2f087f3c5b9dfb0d23f9e53dc6a72cf5a555040cb25
-.zip efd7b1dfb4264ee74ed4d74cbb8d56c82daeef4363536e25c32bc58da63861c0
-.dll 4f2079cd2e228a2777df45ae00714c8679531fd8ad82a66b5c1b10e800771f18
+.url https://letjsnod.com/Asafety?ab05886c110c4143995a&master=fRglK&fiBr=184b095321767d0[…]-15d46e4d953bf9a934ff70&ui=3b4914a5733d69134e931c0aab559944d3b
+.pdf 8b599b39bc3706664d39250a571b7e6536f2f6fddf71e26b5755c71ec4447238 ( Attachment_1337-001.pdf )
+.zip dc9cee254e4d2ffd41d4fa4519ac0dea5ff194d8e328550c2a4f22a569286dcb
+.js 702d6957bfbd9f13cb0a4d3523907ea61a5b81867faf9dedb4cad5fca9563e94
+.zip 99fe6730862db95a23d5996996d99d55a809390b152bfdc15d617545016cbbe6
+.dll f1a49cea454bac3e78ac765b247b65d00c896d84de2028892b00d4310453c665
 
 *************************************************
 
-zip > .js > js > .exe
+pdf > url > .js > js > .exe
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\856384_DATE_03_07_2024_96280225_808522.js
+wscript.exe C:\Users\Admin\AppData\Local\Temp\Invoice-939713625-008-5283127-8901604.js
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\affiliated.js
+wscript.exe C:\Users\Admin\AppData\Local\Temp\sso.js
 
 Explorer.EXE
 
@@ -29,17 +29,19 @@ C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe" -Ser
 
 distro urls:
 
-https://infplaute.com/international-commercial
-https://infplaute.com/affiliated
-https://cdn.discordapp.com/attachments/1130826576351744062/1215270683534426122/1_npp.8.6.3.portable.x64.zip?ex=65fc2405&is=65e9af05&hm=3c5ebf87b2230282beb8ae4fe41fd7532bca17395c7d49c96792ba6e1d6ea6af&
+https://letjsnod.com/Asafety?ab05886c110c4143995a&master=fRglK&fiBr=184b095321767d0[…]-15d46e4d953bf9a934ff70&ui=3b4914a5733d69134e931c0aab559944d3b
+https://letjsnod.com/ssoservice?LSY=BMOSou&oD=AHnwvHg&sourceYgi=eilvX&Kacontent=sMIOOkEIJS&w_cid=9367983&rE=9592978
+https://cdn.discordapp.com/attachments/1063894486901587979/1234858480226144296/1_npp.8.6.3.portable.x64.zip?ex=66324314&is=6630f194&hm=4a3e64dc2428f0b2ce8dbc485cbea06fb7e42d700175fe320a996a451c76a128&
 
 *************************************************
 
 c2's
 
-https://criaturafantastica.com/wp-content/themes/twentytwentyfour/iaawld.php?id=1
-https://wxgrant.com/wp-content/themes/twentytwentyone/ifzgav.php?id=1
-https://www.nsglamour.de/wp-content/themes/twentytwentythree/u7koxg.php?id=1
-https://mrs-batiment.com/wp-content/themes/twentytwenty/tlsgvu.php?id=1
+https://barliam.com/ph/wp-content/themes/twentytwentythree/plxka3.php?id=1
+https://dorseydorse.com/wp-content/themes/twentytwenty/i4imyy.php?id=1
+https://polarishousingsystems.com/wp-content/themes/twentytwentyfour/qshgfl.php?id=1
+https://rariate.com/ph/wp-content/themes/twentytwentythree/6rndt2.php?id=1
+https://unokodkelas.cl/wp-content/themes/twentytwenty/pttfrp.php?id=1
+https://www.judicialconsulting.es/wp-content/themes/hello-elementor/t745ny.php?id=1
 
 *************************************************
