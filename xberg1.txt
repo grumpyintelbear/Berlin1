@@ -1,47 +1,64 @@
-30.04.2024 | WikiLoader | TA544 |
+10.02.2024 | WikiLoader | TA544 |
 
 *************************************************
 
-.url https://letjsnod.com/Asafety?ab05886c110c4143995a&master=fRglK&fiBr=184b095321767d0[…]-15d46e4d953bf9a934ff70&ui=3b4914a5733d69134e931c0aab559944d3b
-.pdf 8b599b39bc3706664d39250a571b7e6536f2f6fddf71e26b5755c71ec4447238 ( Attachment_1337-001.pdf )
-.zip dc9cee254e4d2ffd41d4fa4519ac0dea5ff194d8e328550c2a4f22a569286dcb
-.js 702d6957bfbd9f13cb0a4d3523907ea61a5b81867faf9dedb4cad5fca9563e94
-.zip 99fe6730862db95a23d5996996d99d55a809390b152bfdc15d617545016cbbe6
-.dll f1a49cea454bac3e78ac765b247b65d00c896d84de2028892b00d4310453c665
+.url https://globalvpnproject.info/?gad_source=1&gclid=eaiaiqobchmi7mns9lteiamvzgctbh3mvrxxeaayaiaaegjbk_d_bwe
+.msi 21689eafdfd6005ae75683a423b7816592cdf9aae03d983782d9272bb71787b9
+.dll 119ecd68ab332770bcfe92a3ccdb549b0078d91cc2292bb9d02dc8aa27ca3cc3
 
 *************************************************
 
-pdf > url > .js > js > .exe
+Canton Pure Jonna Network Technology Co., Ltd.
+GlobalSign GCC R45 EV CodeSigning CA 2020
+Thumbprint 3E6B9866607BBB91020938BF77CD7A8E919692B0
+Serial Number 2D DF CE 3F 64 D9 D0 31 13 A1 EC 75
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\Invoice-939713625-008-5283127-8901604.js
+*************************************************
 
-wscript.exe C:\Users\Admin\AppData\Local\Temp\sso.js
+url > .msi > .exe
 
 Explorer.EXE
 
-C:\Users\Admin\AppData\Local\Temp\4_npp.8.6.3.portable.x64.zip\notepad.exe
+msiexec.exe /I C:\Users\Admin\AppData\Local\Temp\GlobalProtect64.msi
 
-explorer.exe
+msiexec.exe /V
 
-C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe" -ServerName:CortanaUI.AppXa50dqqa5gqv4a428c9y1jjw7m3btvepj.mca
+srtasks.exe ExecuteScopeRestorePoint /WaitForRestorePoint:2
+
+notepad.exe
+
+Palo Alto Networks\GlobalProtect\PanGPS.exe -commit
+
+vssvc.exe
+
+svchost.exe -k DcomLaunch -p -s DeviceInstall
+
+DrvInst.exe "4" "1" "C:\Program Files\Palo Alto Networks\GlobalProtect\pangpd.inf" "9" "4473c0673" "0000000000000148" "WinSta0\Default" "0000000000000158" "208" "C:\Program Files\Palo Alto Networks\GlobalProtect"
+
+PanGPS.exe
+
+PanGPA.exe fromGPS
 
 *************************************************
 
 distro urls:
 
-https://letjsnod.com/Asafety?ab05886c110c4143995a&master=fRglK&fiBr=184b095321767d0[…]-15d46e4d953bf9a934ff70&ui=3b4914a5733d69134e931c0aab559944d3b
-https://letjsnod.com/ssoservice?LSY=BMOSou&oD=AHnwvHg&sourceYgi=eilvX&Kacontent=sMIOOkEIJS&w_cid=9367983&rE=9592978
-https://cdn.discordapp.com/attachments/1063894486901587979/1234858480226144296/1_npp.8.6.3.portable.x64.zip?ex=66324314&is=6630f194&hm=4a3e64dc2428f0b2ce8dbc485cbea06fb7e42d700175fe320a996a451c76a128&
+https://globalvpnproject.info/?gad_source=1&gclid=eaiaiqobchmi7mns9lteiamvzgctbh3mvrxxeaayaiaaegjbk_d_bwe
+https://globalvpnproject.info/wp-content/redirect.php
+https://downloadglobalproject.info/download.php
+https://tracker.thefiables.com/v81sS5
 
 *************************************************
 
 c2's
 
-https://barliam.com/ph/wp-content/themes/twentytwentythree/plxka3.php?id=1
-https://dorseydorse.com/wp-content/themes/twentytwenty/i4imyy.php?id=1
-https://polarishousingsystems.com/wp-content/themes/twentytwentyfour/qshgfl.php?id=1
-https://rariate.com/ph/wp-content/themes/twentytwentythree/6rndt2.php?id=1
-https://unokodkelas.cl/wp-content/themes/twentytwenty/pttfrp.php?id=1
-https://www.judicialconsulting.es/wp-content/themes/hello-elementor/t745ny.php?id=1
+http://sdtruckinglogistics.net/wp-content/themes/twentytwentytwo/cb2v5p.php
+http://auditoresdezaragoza.es/modules/dashgoals/t2apqe.php
+http://iconic-tec.de/modules/mod_feed/tmpl/e3ycof.php
+http://velintra.org/wp-content/themes/twentytwentyone/bthdfl.php
+http://hablainglesfacil.com/wp-content/themes/twentytwentytwo/8rw0ar.php
+http://lionsclub-issoire.org/wp-content/themes/twentytwenty/io3ryx.php
+http://indiaaidfoundation.org/wp-content/themes/edumall-child/ethec4.php
+http://jalandharagroexport.com/wp-content/themes/twentytwentytwo/vqra4w.php
 
 *************************************************
